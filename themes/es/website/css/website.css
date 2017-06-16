@@ -1,0 +1,15 @@
+/**/
+.flag-icon{
+	display: inline-block;
+	height: 32px;
+	width: 32px;	
+}
+.flag-icon.flag-icon-uk{
+	background:url(../images/UK.png) no-repeat;
+}
+.flag-icon.flag-icon-vi{
+	background:url(../images/VI.png) no-repeat;
+}
+.langguageBox{
+	margin-top: 20px;
+}

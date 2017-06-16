@@ -1,0 +1,329 @@
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 48.0.2564.116 - Platform: Linux
+MachineID: 
+DateTime: 2016-04-12 08:04:28
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 48.0.2564.116 - Platform: Linux
+MachineID: 
+DateTime: 2016-04-14 07:44:36
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 48.0.2564.116 - Platform: Linux
+MachineID: 
+DateTime: 2016-04-14 07:44:39
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-06-09 04:33:17
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-06-09 04:33:21
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-06-10 03:47:21
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-06-10 03:47:27
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-06-10 03:47:33
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-07-01 03:50:20
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-07-01 03:54:53
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-07-01 03:55:09
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-07-08 10:14:01
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-07-21 10:17:57
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-07-26 03:44:57
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-07-26 08:57:00
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-07-26 09:27:32
+AccessType: Logout
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-08-11 03:35:53
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-08-11 04:08:10
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-08-11 09:15:44
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-08-24 08:53:58
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-09-06 09:16:47
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-10-19 04:34:38
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-10-19 04:34:49
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-10-19 07:18:41
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-10-19 07:18:45
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-11-02 03:23:43
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-11-02 03:23:48
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-11-02 03:23:54
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 51.0.2704.79 - Platform: Linux
+MachineID: 
+DateTime: 2016-11-11 10:11:17
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:16:15
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:17:55
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:17:58
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:19:25
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:19:29
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:19:32
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:21:55
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:22:01
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:57:58
+AccessType: Logout
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 03:59:17
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 04:00:44
+AccessType: Logout
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 06:53:24
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 06:55:14
+AccessType: Logout
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 06:55:23
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 06:55:26
+AccessType: Logout
+UserID: 10
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 06:55:29
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 06:55:32
+AccessType: FailLogin
+UserID: 
+ClientID: 127.0.0.1
+
+BrowserVersion: Browser Name: Google Chrome - Browser Version: 57.0.2987.110 - Platform: Linux
+MachineID: 
+DateTime: 2017-06-13 07:10:52
+AccessType: SuccessLogin
+UserID: 10
+ClientID: 127.0.0.1
+

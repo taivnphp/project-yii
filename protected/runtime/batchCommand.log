@@ -1,0 +1,1190 @@
+2017/06/16 15:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "quesion".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('quesion')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('quesion')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/quesion')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/quesion
+HTTP_REFERER=http://project_yii.dev/
+---
+2017/06/16 15:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:25:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/b15.jpg".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('images/b15.jpg')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/
+---
+2017/06/16 15:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo3.jpg".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo3.jp...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/
+---
+2017/06/16 15:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/b16.jpg".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('images/b16.jpg')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/
+---
+2017/06/16 15:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/b17.jpg".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('images/b17.jpg')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/
+---
+2017/06/16 15:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/b18.jpg".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('images/b18.jpg')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/
+---
+2017/06/16 15:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:26:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('contact')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('contact')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/contact
+HTTP_REFERER=http://project_yii.dev/
+---
+2017/06/16 15:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/contact
+---
+2017/06/16 15:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/contact
+---
+2017/06/16 15:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/contact
+---
+2017/06/16 15:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/contact
+---
+2017/06/16 15:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/contact
+---
+2017/06/16 15:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/contact
+---
+2017/06/16 15:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b15...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b15.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b18...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b18.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b16...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b16.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/b17...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/b17.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mens.html".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('mens.html')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('mens.html')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mens.html')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/mens.html
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/mens.html
+---
+2017/06/16 15:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/mens.html
+---
+2017/06/16 15:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:27:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:27:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:27:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:31:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('view')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/view')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/2?giac-ngu--tri-nao--mat.html
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:31:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/2?giac-ngu--tri-nao--mat.html
+---
+2017/06/16 15:31:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/2?giac-ngu--tri-nao--mat.html
+---
+2017/06/16 15:31:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/2?giac-ngu--tri-nao--mat.html
+---
+2017/06/16 15:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/2?giac-ngu--tri-nao--mat.html
+---
+2017/06/16 15:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:33:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/1?co-xuong-khop.html
+---
+2017/06/16 15:33:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/1?co-xuong-khop.html
+---
+2017/06/16 15:33:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/2?giac-ngu--tri-nao--mat.html
+---
+2017/06/16 15:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/2?giac-ngu--tri-nao--mat.html
+---
+2017/06/16 15:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/2?giac-ngu--tri-nao--mat.html
+---
+2017/06/16 15:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/category/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/category/2?giac-ngu--tri-nao--mat.html
+---
+2017/06/16 15:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/es/website/css/bootstrap.css.map".' in /var/www/project_yii/lib/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/es/websi...')
+#1 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/project_yii/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/es/website/css/bootstrap.css.map
+---
+2017/06/16 15:34:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://project_yii.dev/site/index
+---
+2017/06/16 15:34:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:34:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:35:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:35:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "quesion".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('quesion')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('quesion')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/quesion')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/quesion
+HTTP_REFERER=http://project_yii.dev/site/about
+---
+2017/06/16 15:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('contact')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('contact')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/contact
+HTTP_REFERER=http://project_yii.dev/site/quesion
+---
+2017/06/16 15:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/contact
+---
+2017/06/16 15:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/project_yii/lib/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/project_yii/lib/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/project_yii/lib/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/project_yii/lib/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 /var/www/project_yii/lib/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/project_yii/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/logo3.jpg
+HTTP_REFERER=http://project_yii.dev/site/contact
+---
