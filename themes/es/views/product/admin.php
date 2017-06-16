@@ -1,7 +1,6 @@
 <?php
-$this->breadcrumbs = array(  
-    'Manage Products'
-);
+$manageProductLabel = Yii::t('trans', 'Manage Product');
+$this->breadcrumbs = array(Yii::t('trans', 'Manage Product'));
 ?>
 <div class="blk">
     <div class="blk-ct">

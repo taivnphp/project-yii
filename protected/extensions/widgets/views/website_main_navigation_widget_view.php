@@ -34,7 +34,7 @@
                     </div>
                 </ul>
             </li>
-            <li class=" menu__item "><a class="menu__link" href="<?php echo Yii::app()->createUrl('site/quesion'); ?>"><?php echo Yii::t('trans', 'Question'); ?></a></li>
+            <li class=" menu__item <?php if($controllerId=='site' && $actionId=='question'){echo 'menu__item--current';} ?>"><a class="menu__link" href="<?php echo Yii::app()->createUrl('site/question'); ?>"><?php echo Yii::t('trans', 'Question'); ?></a></li>
             <li class=" menu__item "><a class="menu__link" href="<?php echo Yii::app()->createUrl('site/contact'); ?>"><?php echo Yii::t('trans', 'Contact'); ?></a></li>
             <?php if($controllerId=='site' && $actionId=='error'){ ?>
             <li class=" menu__item menu__item--current"><a class="menu__link" href="javascript:;"><?php echo Yii::t('trans', 'Error'); ?></a></li>

@@ -128,12 +128,12 @@ Yii::app()->language=$language;
                 </div>
                 <div class="col-md-9 footer-right">
                     <div class="col-sm-6 newsleft">
-                        <h3>SIGN UP FOR NEWSLETTER !</h3>
+                        <h3><?php echo Yii::t('trans', 'sign_up_for_new_letter');?></h3>
                     </div>
                     <div class="col-sm-6 newsright">
                         <form>
                             <input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-                            <input type="submit" value="Submit">
+                            <input type="submit" value="<?php echo Yii::t('trans', 'Submit');?>">
                         </form>
                     </div>
                     <div class="clearfix"></div>
@@ -153,7 +153,7 @@ Yii::app()->language=$language;
                         <div class="col-md-4 sign-gd-two">
                             <h4>Store Information</h4>
                             <ul>
-                                <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Address : <?php echo Yii::app()->params['address']; ?></li>
+                                <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i><?php echo Yii::t('trans','Address');?> : <?php echo Yii::app()->params['address']; ?></li>
                                 <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>Email : <a href="mailto:<?php echo Yii::app()->params['email']; ?>"><?php echo Yii::app()->params['email']; ?></a></li>
                                 <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>Phone : <?php echo Yii::app()->params['hotline']; ?></li>
                             </ul>
@@ -162,7 +162,7 @@ Yii::app()->language=$language;
                     </div>
                 </div>
                 <div class="clearfix"></div>
-                <p class="copy-right">© 2016 Smart Shop. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+                <p class="copy-right">Copy Right © <?php echo date('Y'); ?></p>
             </div>
         </div>
         <!-- //footer -->

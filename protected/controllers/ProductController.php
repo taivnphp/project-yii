@@ -17,6 +17,7 @@ class ProductController extends Controller{
     }
 
     public function actionAdmin(){
+        Yii::app()->language = 'vi';
         $this->checkAccess();
 
     	$products = new Product('search');
@@ -40,13 +41,16 @@ class ProductController extends Controller{
     **/
     public function actionUpdate($id){
         $this->checkAccess();
+        Yii::app()->language = 'vi';
 
         $productId = (int)$id;    
         $product = $this->loadModel($productId);
         if(isset($_POST['Product'])){
-        
+                    
             //Update Product Info
             $product->attributes = $_POST['Product'];
+            $product->proNEW     = (isset($_POST['Product']['proNEW']) && $_POST['Product']['proNEW'] == 'on') ? '1' : '0';
+            $product->proHOT     = (isset($_POST['Product']['proHOT']) && $_POST['Product']['proHOT'] == 'on') ? '1' : '0';
             $fileProductThumbnail = array();
             if (isset($_FILES["ProductThumbnail"]) && !empty($_FILES["ProductThumbnail"]['name'])){
                 $fileProductThumbnail = $_FILES["ProductThumbnail"];
@@ -92,11 +96,14 @@ class ProductController extends Controller{
     */
     public function actionCreate(){
         $this->checkAccess();
-
+        Yii::app()->language = 'vi';
         $product = new Product;
         if(isset($_POST['Product'])){
             //Create Product Info
             $product->attributes = $_POST['Product'];
+            $product->proNEW     = (isset($_POST['Product']['proNEW']) && $_POST['Product']['proNEW'] == 'on') ? '1' : '0';
+            $product->proHOT     = (isset($_POST['Product']['proHOT']) && $_POST['Product']['proHOT'] == 'on') ? '1' : '0';
+            
             $fileProductThumbnail = array();
             if (isset($_FILES["ProductThumbnail"]) && !empty($_FILES["ProductThumbnail"]['name'])){
                 $fileProductThumbnail = $_FILES["ProductThumbnail"];
@@ -167,8 +174,6 @@ class ProductController extends Controller{
             else $this->redirect(array('product/admin'));            
         }
     }
-
-
 
     /**/
     public function actionView($id){

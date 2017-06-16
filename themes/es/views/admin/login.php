@@ -36,12 +36,12 @@
                                         <div class="frow"> 
                                         <?php echo CHtml::submitButton('Login', array('class' => 'btn btn-primary btn-block uppercase')); ?>
                                         </div>
-                                        <div class="frow login-lik"> 
+                                        <!-- <div class="frow login-lik"> 
                                             <div class="f-l">                                            
                                                 <input type="checkbox" name="rememberMe" id="remember" <?php if (isset($_COOKIE['remember_me'])) {echo 'checked="checked"';} ?> />
                                                 <label for="remember">Remember me</label>
                                             </div>                                        
-                                        </div>                        
+                                        </div>                         -->
                                         <?php $this->endWidget(); ?>                                    
                                     </div>
                                 </div>                                                                                                        

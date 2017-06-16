@@ -3,6 +3,7 @@ $randomkey    = Yii::app()->helper->generateRandomString();
 $controllerID = Yii::app()->controller->id;
 $actionID     = strtolower(Yii::app()->controller->action->id);
 $themeBaseURL = Yii::app()->theme->baseUrl;
+Yii::app()->language = 'vi';
 ?>
 <!DOCTYPE html>
 <!--[if IE 8]><html lang="en" class="no-js ie ie8"><![endif]-->
@@ -26,7 +27,7 @@ $themeBaseURL = Yii::app()->theme->baseUrl;
     <body class="gap-in-cared expanded">
         <header class="header">
             <div class="header-bar">
-                <div class="mm-menu"><a href="/" class="call-main-menu" title="Back to your site"> <i class="fa fa-home"></i> <span>Back To Your Site</span></a></div>
+                <div class="mm-menu"><a href="/" class="call-main-menu" title="<?php echo Yii::t('trans', 'Back_To_Home'); ?>"> <i class="fa fa-home"></i> <span><?php echo Yii::t('trans', 'Back_To_Home'); ?></span></a></div>
                 <div class="header-top-bar">
                     <div class="row-clearfix">
                         <div class="tbar search-frm col-4">
@@ -44,7 +45,7 @@ $themeBaseURL = Yii::app()->theme->baseUrl;
                                         <span class="avatar">
                                             <img src="https://secure.gravatar.com/avatar/<?php echo md5(Yii::app()->user->getState('email')) ?>?secure=true&amp;d=identicon" alt="avatar">
                                         </span>
-                                        <span class="user-admin-name">Welcome, <?php echo Yii::app()->user->name; ?></span><i class="fa fa-sort-desc"></i>
+                                        <span class="user-admin-name"><?php echo Yii::t('trans', 'Welcome'); ?>, <?php echo Yii::app()->user->name; ?></span><i class="fa fa-sort-desc"></i>
                                     </a>                                    
                                     <div class="profile-popup">
                                         <ul>                                         
@@ -74,11 +75,12 @@ $themeBaseURL = Yii::app()->theme->baseUrl;
 
                     <?php if(isset($this->breadcrumbs)):?>
                     <div class='pathway'>
-                    <?php $this->widget('zii.widgets.CBreadcrumbs', array(
-                        'links'=>$this->breadcrumbs,
-                        'encodeLabel' => false,
-                        'separator' => ''
-                    )); ?>
+                        <?php $this->widget('zii.widgets.CBreadcrumbs', array(
+                            'homeLink'=>CHtml::link(Yii::t('trans','Home'), array('/site/index')),
+                            'links'=>$this->breadcrumbs,
+                            'encodeLabel' => false,
+                            'separator' => ''
+                        )); ?>
                     </div><!-- breadcrumbs -->
                     <?php endif?>
 
@@ -89,13 +91,7 @@ $themeBaseURL = Yii::app()->theme->baseUrl;
             </div>            
         </section>
         <footer class="footer">
-            <p class="t-c">
-                <?php 
-
-                echo date('Y'); 
-                echo Yii::app()->theme->baseUrl;
-                ?>
-            </p>
+            <p class="t-c">Copy Right © <?php echo date('Y'); ?></p>
         </footer>
         <div id="cover"></div>
         <div id="popupMessage"></div>

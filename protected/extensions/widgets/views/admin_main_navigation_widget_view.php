@@ -3,11 +3,11 @@ $menuItems  = array();
 
 // Products List
 $menuItems[]=array(
-    'label'=>'<i class="fa fa-database"> </i>Danh Mục Sản Phẩm',
+    'label'=>'<i class="fa fa-database"> </i>' . Yii::t('trans', 'Manage Category'),
     'url'=>array('category/admin'),
     'itemOptions' => array(
         'class' => 'left-tooltip',
-        'title' => 'Danh Mục Sản Phẩm',
+        'title' => Yii::t('trans', 'Manage Category'),
         'data-placement' => 'right',
         'data-toggle' => "tooltip"
     ),
@@ -15,11 +15,11 @@ $menuItems[]=array(
 
 // Products List
 $menuItems[]=array(
-    'label'=>'<i class="fa fa-database"> </i>Danh sách sản phẩm',
+    'label'=>'<i class="fa fa-database"> </i>' . Yii::t('trans', 'Manage Product'),
     'url'=>array('product/admin'),
     'itemOptions' => array(
         'class' => 'left-tooltip',
-        'title' => 'Danh Sách Sản Phẩm',
+        'title' => Yii::t('trans', 'Manage Product'),
         'data-placement' => 'right',
         'data-toggle' => "tooltip"
     ),
@@ -27,11 +27,11 @@ $menuItems[]=array(
 
 // LOG OUT
 $menuItems[]=array(
-    'label'=>'<i class="fa fa-power-off"> </i>Log Out',
+    'label'=>'<i class="fa fa-power-off"> </i>' . Yii::t('trans', 'Log_Out'),
     'url'=>array('admin/logout'),
     'itemOptions' => array(
         'class' => 'left-tooltip',
-        'title' => 'Log out',
+        'title' => Yii::t('trans', 'Log_Out'),
         'data-placement' => 'right',
         'data-toggle' => "tooltip"
     ),

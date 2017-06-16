@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^myyii\.com$ [NC]
+RewriteRule ^(.*)$ http://project_yii.dev/$1 [L,R=301]
+RewriteRule ^([a-zA-Z0-9]+)/$ /$1 [R,L]
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php

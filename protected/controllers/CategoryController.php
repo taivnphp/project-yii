@@ -2,7 +2,7 @@
 
 class CategoryController extends Controller
 {
-	public $layout = '//layouts/admin';
+    public $layout = '//layouts/admin';
     protected $folderName = 'category/';
     public function actionIndex()
     {
