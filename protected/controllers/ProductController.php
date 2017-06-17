@@ -145,8 +145,9 @@ class ProductController extends Controller{
     public function actionDelete($id){
         $this->checkAccess();
         $productId = (int) $id;        
-        if ($productId) {            
-            Product::model()->doDeleteProduct($productId);
+        if ($productId) {      
+            $uploadPath = $this->pUploadFiles . $this->folderName . $productId . '/';      
+            Product::model()->doDeleteProduct($productId, $uploadPath);
                         
             if(!Yii::app()->request->isPostRequest)
                 $this->redirect(array('product/admin'));
@@ -165,7 +166,8 @@ class ProductController extends Controller{
         $productDelete = Yii::app()->request->getParam('ProductDelete', array());        
         if(!empty($productDelete)){
             foreach($productDelete as $productId){
-                Product::model()->doDeleteProduct($productId);
+                $uploadPath = $this->pUploadFiles . $this->folderName . $productId . '/';
+                Product::model()->doDeleteProduct($productId, $uploadPath);
             }
 
             if(Yii::app()->request->isPostRequest){
@@ -179,6 +181,14 @@ class ProductController extends Controller{
     public function actionView($id){
         $productId = (int)$id;
 
-        echo $productId;        
+        $this->render('view');
+    }
+
+    public function actionDemo(){
+        //get data from Model
+        $randomProduct = Product::model()->getRandomProduct();        
+        
+        //Render to view
+        $this->render('demo', array('randomProduct'=>$randomProduct));
     }
 }

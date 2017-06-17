@@ -77,15 +77,12 @@ return array(
             'class'=>'CDbAuthManager',
             'connectionID'=>'admin'
         ),
-        // 'message' => array(
-        //     'source' => 'MPhpMessageSource'
-        // ),
         'coreMessages'=>array('basePath'=>'protected/messages'),
     ), // Component
     'modules' => array(
         'gii' => array(
             'class' => 'system.gii.GiiModule',
-            'password' => 'abcdef',
+            'password' => '123456',
             // If removed, Gii defaults to localhost only. Edit carefully to taste.
             'ipFilters' => array('127.0.0.1', '::1'),
             'generatorPaths' => array('bootstrap.gii')

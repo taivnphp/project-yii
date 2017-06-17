@@ -14,6 +14,8 @@ class Controller extends CController
 	 * @var array context menu items. This property will be assigned to {@link CMenu::items}.
 	 */
 	public $menu=array();
+
+    protected $folderName;
 	/**
 	 * @var array the breadcrumbs of the current page. The value of this property will
 	 * be assigned to {@link CBreadcrumbs::links}. Please refer to {@link CBreadcrumbs::links}
@@ -27,6 +29,14 @@ class Controller extends CController
             $old = umask(0);
             @mkdir($this->pUploadFiles, 0777);
             umask($old);
+        }
+
+        if($this->folderName){
+            if(!is_dir($this->pUploadFiles . $this->folderName)){
+                $old = umask(0);
+                @mkdir($this->pUploadFiles . $this->folderName, 0777);
+                umask($old);
+            }
         }
         return true;
     }

@@ -104,7 +104,8 @@ class ProductPhoto extends CActiveRecord {
             foreach ($productPhotoModels as $productPhoto) {
                 # code...
                 //Remove Product Photos
-
+                $photoImgURL = $productPhoto->prophotosImageURL;
+                @unlink($uploadPath . $photoImgURL);
                 $productPhoto->delete();
             }
         }
@@ -150,7 +151,8 @@ class ProductPhoto extends CActiveRecord {
             $productPhotoModel = $this->findByPk($photoID);
             if (!empty($productPhotoModel)) {
                 $photoImgURL = $productPhotoModel->prophotosImageURL;
-                unlink($uploadPath . $photoImgURL);
+                //Remove files
+                @unlink($uploadPath . $photoImgURL);
                 $productPhotoModel->delete();
             }
             $productPhotoModel = null;

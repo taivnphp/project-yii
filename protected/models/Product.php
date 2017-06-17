@@ -150,13 +150,21 @@ class Product extends CActiveRecord
 		return parent::model($className);
 	}
 
-	public function doDeleteProduct($productId){
+	public function doDeleteProduct($productId, $uploadPath){
 		$modelProduct = $this->findByPk($productId);
 		
 		if(!empty($modelProduct)){
-			ProductPhoto::model()->doDeleteProductPhotos($productId);
+			ProductPhoto::model()->doDeleteProductPhotos($productId, $uploadPath);
 
 			$modelProduct->delete();
 		}                                                
 	}
+
+	//Test funtion  - get random Product
+	public function getRandomProduct(){
+		$sql = "SELECT `proID`, `catID`, `proCode`, `proName`, `proNameE`, `proPriceM`, `proPriceL`, `proThumbImageURL`, `proFullImageURL`, `proShortDescription`, `proShortDescriptionE`, `proFullContent`, `proFullContentE`, `proHOT`, `proNEW`, `proView`, `proSortID` FROM `tblproduct` ORDER by rand() limit 1";
+		$result = Yii::app()->db->createCommand($sql)->queryRow();
+		return $result;
+	}
+
 }
