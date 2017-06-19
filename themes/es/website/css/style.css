@@ -1318,7 +1318,7 @@ h2.resp-accordion {
     z-index: 10;
 }
 .product-new-top {
-    background: #868686 none repeat scroll 0 0;
+    background: #337ab7 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     right: 0;
@@ -1327,7 +1327,22 @@ h2.resp-accordion {
     text-transform: lowercase;
     top: 0;
     z-index: 10;
+    text-transform: uppercase;
 }
+
+.product-hot-top {
+    background: #d9534f none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    left: 0;
+    padding: 0 10px 1px;
+    position: absolute;
+    text-transform: lowercase;
+    top: 0;
+    z-index: 10;
+    text-transform: uppercase;
+}
+
 .inner-men-cart-pro {
     height: 100%;
     position: relative;

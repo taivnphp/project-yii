@@ -167,4 +167,16 @@ class Product extends CActiveRecord
 		return $result;
 	}
 
+
+	public function getRelatedProducts($catID, $proID){
+		$catID = (int) $catID;
+		$proID = (int) $proID;
+
+		$relatedProducts = $this->findAll("catID=:x and proID!=:y", array('x' => $catID, 'y' => $proID));
+		return $relatedProducts;
+	}
+
+	public static function buildProductViewLink($proID, $proName){
+		return Yii::app()->createUrl("product/view", array("id" => $proID)) . '?' . Yii::app()->helper->getAliasURL($proName);
+	}
 }

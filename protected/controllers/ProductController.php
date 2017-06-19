@@ -179,6 +179,7 @@ class ProductController extends Controller{
 
     /**/
     public function actionView($id){
+        $this->setLanguage();
         $this->layout='website';
         $productId = (int)$id;
         $product = $this->loadModel($productId);
@@ -190,7 +191,7 @@ class ProductController extends Controller{
             'language' => $this->getLanguage(),
             'product' => $product,
             'productPhotos' => ProductPhoto::model()->getProductPhotos($productId),
-            'uploadPath' => Yii::app()->request->baseUrl . Yii::app()->params->pathForUploadFiles . $this->folderName . $productId . '/'
+            'uploadPath' => Yii::app()->request->baseUrl . Yii::app()->params->pathForUploadFiles . $this->folderName
         ));
     }
 

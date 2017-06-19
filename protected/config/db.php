@@ -5,7 +5,7 @@ return array(
     'connectionString' => "mysql:host=localhost;dbname=example_medical",
     'emulatePrepare'   => true,
     'username'         => 'root',
-    'password'         => '',
+    'password'         => 'root',
     'charset'          => 'utf8',
 );
 ?>

@@ -15,6 +15,19 @@ return array (
     'Manage Category' => 'Manage Categories',
     'Welcome' => 'Welcome',
     'Back_To_Home' => 'Back to your site',
-    'Log_Out' => 'Log Out'
+    'Log_Out' => 'Log Out',
+    'Add to cart' => 'Add to cart',
+    'Related_Products' => 'Related Products',
+    'Quantity' => 'Quantity',
+    'Description' => 'Description',
+    'Reviews' => 'Reviews',
+    'Free and Fast Delivery' => 'Free and Fast Delivery',
+    'Free shipping On all orders' => 'Free shipping On all orders',
+    'Buy your product in a simple way' => 'Buy your product in a simple way',
+    'shop_short_introduce' => 'Short English Introduce........',
+    'Store Information' => 'Store Information',
+    'proNEW' => 'NEW',
+    'proHOT' => 'HOT',
+    'Product_not_found' => 'Product Not Found'
 );
 ?>

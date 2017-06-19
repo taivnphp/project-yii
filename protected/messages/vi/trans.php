@@ -16,6 +16,20 @@ return array (
     'Manage Category' => 'Danh Mục Sản Phẩm',
     'Welcome' => 'Xin Chào',
     'Back_To_Home' => 'Trở về trang của bạn',
-    'Log_Out' => 'Đăng Xuất'
+    'Log_Out' => 'Đăng Xuất',
+    'Add to cart' => 'Thêm vào giỏ',
+    'Related_Products' => 'Sản Phẩm Liên Quan',
+    'Quantity' => 'Số lượng',
+    'Description' => 'Mô tả',
+    'Reviews' => 'Nhận xét',
+    'Free and Fast Delivery' => 'Giao hàng Miễn phí và Nhanh chóng',
+    'Free shipping On all orders' => 'Miễn phí vận chuyển cho tất cả các đơn hàng',
+    'Buy your product in a simple way' => 'Mua sản phẩm của bạn một cách đơn giản',
+    'shop_short_introduce' => 'Gioi thieu ve shop ngan gon ........',
+    'Store Information' => 'Thông tin liên lạc',
+    'proNEW' => 'Mới',
+    'proHOT' => 'khuyến mãi',
+    'Product_not_found' => 'Không tìm thấy sản phẩm'
+
 );
 ?>

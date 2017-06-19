@@ -23,7 +23,7 @@ $this->breadcrumbs = array(Yii::t('trans', 'Manage Product'));
 
                 <form id="admin_product_form">
                     <?php
-                    $button_template = '<ul class="nav list-operations"><li>{update}</li><li>{delete}</li><li></li></ul>';                    
+                    $button_template = '<ul class="nav list-operations"><li>{view}</li><li>{update}</li><li>{delete}</li><li></li></ul>';                    
                     $template = '<div class="cp-toolbar">
                         <h3>{summary}</h3>
                         <ul class="nav">
@@ -92,7 +92,15 @@ $this->breadcrumbs = array(Yii::t('trans', 'Manage Product'));
                                 'header'   => 'Thao Tác',
                                 'template' => $button_template,
                                 'deleteConfirmation'=> 'Warning! Removing this product would affect measures, do you want to continue?',
-                                'buttons'  => array(                    
+                                'buttons'  => array(             
+                                    'view' => array(
+                                        'label'    => '<i class="fa fa-eye"></i>',
+                                        'url'      => 'Product::buildProductViewLink("$data->proID", "$data->proName")',
+                                        'imageUrl' => false,
+                                        'options' => array(                         
+                                            'title' => 'Edit'                            
+                                        ),
+                                    ),       
                                     'update' => array(
                                         'label'    => '<i class="fa fa-pencil"></i>',
                                         'url'      => 'Yii::app()->createUrl("product/update", array("id" => $data->proID))',

@@ -4,5 +4,6 @@ return array(
     '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
     '<controller:\w+>/<action:\w+>' => '<controller>/<action>',    
     'admin/change-password' => 'admin/ChangePassword',    
+    'product/san-pham-dong' => 'product/demo'
 );
 ?>

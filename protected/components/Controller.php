@@ -23,7 +23,7 @@ class Controller extends CController
 	 */
 	public $breadcrumbs=array();
     protected $pUploadFiles;
-    public function  beforeAction($action){      
+    public function  beforeAction($action){              
     	$this->pUploadFiles = $_SERVER['DOCUMENT_ROOT'].Yii::app()->request->baseUrl . Yii::app()->params->pathForUploadFiles;
     	if(!is_dir($this->pUploadFiles)){
             $old = umask(0);
@@ -63,5 +63,13 @@ class Controller extends CController
     public function getLanguage(){
         $language = isset(Yii::app()->session['sess_lang']) ? Yii::app()->session['sess_lang'] : 'en';
         return ($language == 'en_us') ? 'en' : $language;
+    }
+
+    public function setLanguage(){
+        if(!empty(Yii::app()->session['sess_lang'])){
+            $language=Yii::app()->session['sess_lang'];
+        }
+        else $language = 'en';
+        Yii::app()->language=( $language == 'en_us') ? 'en' : $language;
     }
 }
