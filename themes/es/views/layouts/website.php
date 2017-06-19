@@ -21,6 +21,7 @@ Yii::app()->language=$language;
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
             function hideURLbar(){ window.scrollTo(0,1); } </script>
         <!-- //for-mobile-apps -->
+        <link rel="stylesheet" href="<?php echo $themeBaseURL; ?>css/flexslider.css" type="text/css" media="screen" />
         <link href="<?php echo $themeBaseURL; ?>css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
         <link href="<?php echo $themeBaseURL; ?>css/style.css" rel="stylesheet" type="text/css" media="all">
         <!-- js -->
@@ -35,6 +36,9 @@ Yii::app()->language=$language;
         <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic" rel="stylesheet" type="text/css">
         <script src="<?php echo $themeBaseURL; ?>js/jquery.easing.min.js"></script>
+        <script src="<?php echo $themeBaseURL; ?>js/jquery.flexslider.js"></script> <!--Product Photo Sliders -->
+        <script src="<?php echo $themeBaseURL; ?>js/imagezoom.js"></script><!--Product Photo Image Zooms -->
+
     </head>
     <body cz-shortcut-listen="true">
         <!-- header -->
@@ -170,5 +174,6 @@ Yii::app()->language=$language;
             var _urlChangeLanguage='<?php echo Yii::app()->createUrl('site/ChangeLanguage'); ?>';
         </script>
         <script type="text/javascript" src="<?php echo $themeBaseURL; ?>js/script.js?k=<?php echo $randomkey?>"></script>
+
     </body>
 </html>

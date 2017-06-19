@@ -59,4 +59,9 @@ class Controller extends CController
             $this->redirect(array('admin/login'));
         }
     }
+
+    public function getLanguage(){
+        $language = isset(Yii::app()->session['sess_lang']) ? Yii::app()->session['sess_lang'] : 'en';
+        return ($language == 'en_us') ? 'en' : $language;
+    }
 }

@@ -179,15 +179,25 @@ class ProductController extends Controller{
 
     /**/
     public function actionView($id){
+        $this->layout='website';
         $productId = (int)$id;
+        $product = $this->loadModel($productId);
 
-        $this->render('view');
+        //Increase Product View
+        $product->proView=$product->proView+1;
+        $product->save();
+        $this->render('view', array(
+            'language' => $this->getLanguage(),
+            'product' => $product,
+            'productPhotos' => ProductPhoto::model()->getProductPhotos($productId),
+            'uploadPath' => Yii::app()->request->baseUrl . Yii::app()->params->pathForUploadFiles . $this->folderName . $productId . '/'
+        ));
     }
 
     public function actionDemo(){
         //get data from Model
         $randomProduct = Product::model()->getRandomProduct();        
-        
+
         //Render to view
         $this->render('demo', array('randomProduct'=>$randomProduct));
     }
