@@ -33,10 +33,25 @@ var website_fn = {
 			window.location = $this.data('href');
 			return;
 		});
+	},
+	backToTop:function(){
+		$('a.backToTop').click(function(){
+			$('html, body').animate({scrollTop : 0},800);
+			return false;
+		});
 	}
 }
-$( document ).ready(function() {
 
+$(window).scroll(function(){
+	if ($(this).scrollTop() > 100) {
+		$('.backToTop').fadeIn();
+	} else {
+		$('.backToTop').fadeOut();
+	}
+});
+	
+$( document ).ready(function() {
+	website_fn.backToTop();
     website_fn.changeLanguage();
 
     website_fn.categoryChangeLink();

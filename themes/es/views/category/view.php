@@ -74,7 +74,7 @@ $currentCatLink='';
 				<div class="clearfix"></div>
 			</div>
 			<div class="category-list-products">
-				<!-- <h1><?php echo Yii::t('trans', 'Products'); ?></h1> -->
+				<h1><?php echo Yii::t('trans', 'Products'); ?></h1>
 				<?php 
 				if(!empty($listProducts)){
 					foreach ($listProducts as $key => $productModel) {

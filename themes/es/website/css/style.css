@@ -5117,3 +5117,17 @@ td.invert-image a img {
 }
 }
 /*-- //responsive media queries --*/
+
+a.backToTop{
+  display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #FDA30E;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }

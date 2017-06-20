@@ -180,13 +180,11 @@ Yii::app()->language=$language;
                 <p class="copy-right">Copy Right © <?php echo date('Y'); ?></p>
             </div>
         </div>
-        <a class="backToTop" style="width: 100px;height: 100px;position: fixed;bottom: 0;right: 0;background: red;color: #fff">Top</a>
+        <a class="backToTop" id="backToTop"><span class="glyphicon glyphicon-arrow-up"></span></a>
         <!-- //footer -->
         <script type="text/javascript">
             var _urlChangeLanguage='<?php echo Yii::app()->createUrl('site/ChangeLanguage'); ?>';
         </script>
         <script type="text/javascript" src="<?php echo $themeBaseURL; ?>js/script.js?k=<?php echo $randomkey?>"></script>
-
-
     </body>
 </html>
