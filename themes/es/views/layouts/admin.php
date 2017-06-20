@@ -2,7 +2,7 @@
 $randomkey    = Yii::app()->helper->generateRandomString();
 $controllerID = Yii::app()->controller->id;
 $actionID     = strtolower(Yii::app()->controller->action->id);
-$themeBaseURL = Yii::app()->theme->baseUrl;
+$themeBaseURL = Yii::app()->theme->baseUrl . '/admin/';
 Yii::app()->language = 'vi';
 ?>
 <!DOCTYPE html>
@@ -103,7 +103,7 @@ Yii::app()->language = 'vi';
             var _urlDeleteMultiProducts   = '<?php echo Yii::app()->createUrl('product/DeleteMultiProducts'); ?>';
         </script>
         <script type="text/javascript" src="<?php echo $themeBaseURL; ?>/js/plugins.js?k=<?php echo $randomkey; ?>"></script>
-        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/product.js?k=<?php echo $randomkey; ?>"></script>
-        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/start.js?k=<?php echo $randomkey; ?>"></script>
+        <script type="text/javascript" src="<?php echo $themeBaseURL; ?>/js/product.js?k=<?php echo $randomkey; ?>"></script>
+        <script type="text/javascript" src="<?php echo $themeBaseURL; ?>/js/start.js?k=<?php echo $randomkey; ?>"></script>
     </body>
 </html>

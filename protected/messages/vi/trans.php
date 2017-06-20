@@ -8,6 +8,7 @@ return array (
     'News' => 'Tin Tức',
     'Question'=> 'Câu Hỏi Thường Gặp',
     'Product' => 'Sản Phẩm',
+    'Products' => 'Danh Sách Sản Phẩm',
     'Error' => 'Lỗi',
     'Address' => 'Địa chỉ',
     'sign_up_for_new_letter' => 'Đăng ký để nhận bản tin!',
@@ -29,7 +30,12 @@ return array (
     'Store Information' => 'Thông tin liên lạc',
     'proNEW' => 'Mới',
     'proHOT' => 'khuyến mãi',
-    'Product_not_found' => 'Không tìm thấy sản phẩm'
-
+    'Product_not_found' => 'Không tìm thấy sản phẩm',
+    'Categories' => 'Danh Mục Sản Phẩm',
+    'Category_not_found' => 'Không tìm thấy Danh Mục Sản Phẩm',
+    'Search' => 'Tìm Kiếm',
+    'Search_Button' => 'Tìm',
+    'Items' => 'Sản Phẩm',
+    'View Card' => 'Xem Giỏ Hàng'
 );
 ?>

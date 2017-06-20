@@ -2,9 +2,9 @@
 $breadcrumbs = array();
 $breadcrumbs[Yii::t('trans', 'Manage Product')] = array('product/admin');
 if ($product->proID) {
-    $breadcrumbs[] = 'Update San pham';
+    $breadcrumbs[] = 'Sửa Sản Phẩm';
 } else {
-    $breadcrumbs[] = 'Tao San pham Moi';
+    $breadcrumbs[] = 'Tạo Mới Sản Phẩm';
 }
 $this->breadcrumbs = $breadcrumbs;
 ?>
@@ -37,60 +37,60 @@ $this->breadcrumbs = $breadcrumbs;
                     <div class="blk-batch clearfix">
                         <label>Tên sản phẩm</label>
                         <div class="b-right">					        
-                            <?php echo $form->textField($product, 'proName', array('class' => 'txt-name', 'placeholder' => '...')); ?>
+                            <?php echo $form->textField($product, 'proName', array('class' => 'txt-name')); ?>
                         </div>
                     </div>
                     <div class="blk-batch clearfix">
                         <label>Tên sản phẩm (Tiếng Anh)</label>
                         <div class="b-right">					        
-                            <?php echo $form->textField($product, 'proNameE', array('class' => 'txt-name', 'placeholder' => 'Batch Name')); ?>
+                            <?php echo $form->textField($product, 'proNameE', array('class' => 'txt-name')); ?>
                         </div>
                     </div>
                     <div class="blk-batch clearfix">
-                        <label>Gia goc</label>
+                        <label>Giá Gốc</label>
                         <div class="b-right">                           
-                            <?php echo $form->textField($product, 'proPriceM', array('class' => 'txt-name', 'placeholder' => 'Batch Name')); ?>
+                            <?php echo $form->textField($product, 'proPriceM', array('class' => 'txt-name')); ?>
                         </div>
                     </div>
                     <div class="blk-batch clearfix">
-                        <label>Gia Khuyen Mai</label>
+                        <label>Giá Khuyến Mãi</label>
                         <div class="b-right">                           
-                            <?php echo $form->textField($product, 'proPriceL', array('class' => 'txt-name', 'placeholder' => 'Batch Name')); ?>
+                            <?php echo $form->textField($product, 'proPriceL', array('class' => 'txt-name')); ?>
                         </div>
                     </div>
                     <div class="blk-batch clearfix">
                         <label>Danh mục</label>						
-                        <?php echo $form->dropDownList($product, 'catID', CHtml::listData(Category::model()->findAll(), 'catID', 'catName'), array('prompt' => '...', 'class' => 'ipt', 'style' => 'width:200px')); ?>
+                        <?php echo $form->dropDownList($product, 'catID', CHtml::listData(Category::model()->findAll(), 'catID', 'catName'), array('prompt' => '-- Chọn Danh Mục --', 'class' => 'ipt', 'style' => 'width:200px')); ?>
                     </div>
 
                     <div class="blk-batch clearfix">
-                        <label>Gioi thieu ngan</label>
+                        <label>Giới Thiệu Ngắn</label>
                         <div class="b-right">                           
-                            <?php echo $form->textField($product, 'proShortDescription', array('class' => 'txt-name', 'placeholder' => 'Batch Name')); ?>
+                            <?php echo $form->textField($product, 'proShortDescription', array('class' => 'txt-name')); ?>
                         </div>
                     </div>
                     <div class="blk-batch clearfix">
-                        <label>Gioi thieu ngan - English</label>
+                        <label>Giới Thiệu Ngắn (English)</label>
                         <div class="b-right">                           
-                            <?php echo $form->textField($product, 'proShortDescriptionE', array('class' => 'txt-name', 'placeholder' => 'Batch Name')); ?>
+                            <?php echo $form->textField($product, 'proShortDescriptionE', array('class' => 'txt-name')); ?>
                         </div>
                     </div>
                     <div class="blk-batch clearfix">
-                        <label>San Pham Moi</label>
+                        <label>Sản phẩm mới</label>
                         <div class="b-right">
                             <?php $proNewChecked = $product->proNEW == '1' ? 'checked="checked"' : ''; ?>
                             <input type="checkbox" name="Product[proNEW]" <?php echo $proNewChecked; ?> />                            
                         </div>
                     </div>
                     <div class="blk-batch clearfix">
-                        <label>San Pham Hot</label>
+                        <label>Sản phẩm Hot</label>
                         <div class="b-right">
                             <?php $proHotChecked = $product->proHOT == '1' ? 'checked="checked"' : ''; ?>
                             <input type="checkbox" name="Product[proHOT]" <?php echo $proHotChecked; ?> />                            
                         </div>
                     </div>
                     <div class="blk-batch clearfix">
-                        <label>Gioi thieu ngan - English</label>
+                        <label>Mô Tả </label>
                         <div class="b-right">                           
                             <?php
                             $this->widget('application.extensions.xheditor.XHeditor', array(
@@ -111,7 +111,7 @@ $this->breadcrumbs = $breadcrumbs;
                         </div>
                     </div>
                     <div class="blk-batch clearfix">
-                        <label>Mo ta - Tieng Anh</label>
+                        <label>Mô Tả (English)</label>
                         <div class="b-right">                           
                             <?php
                             $this->widget('application.extensions.xheditor.XHeditor', array(
@@ -137,7 +137,7 @@ $this->breadcrumbs = $breadcrumbs;
         </div>
         <div class="row">
             <div class="col-12 blk-batch-left">
-                <h3>HINH ANH SAN PHAM</h3>
+                <h3>Hình Ảnh</h3>
                 <div class="blk-create-batch">
                     <div class="blk-batch clearfix">
                         <label>Thumbnail</label>
@@ -152,7 +152,7 @@ $this->breadcrumbs = $breadcrumbs;
                         </div>
                     </div> 
                     <div class="blk-batch clearfix">
-                        <label>Danh sach hinh anh</label>
+                        <label>Danh Sách Hình Ảnh</label>
                         <div class="b-right">
                             <?php
                             if (!empty($productPhotos)) {

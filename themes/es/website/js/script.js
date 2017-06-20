@@ -1,5 +1,6 @@
 var website_fn = {
 	changeLanguage: function(){
+		if(!$('.setLanguage').length) return;
 		$('.setLanguage').click(function(){
 			var $this = $(this);
 
@@ -21,8 +22,22 @@ var website_fn = {
 		    });
 			return;
 		});
+	},
+	categoryChangeLink: function(){
+		if(!$('.cat-menu-link').length) return;
+		$('.cat-menu-link').click(function(){
+			var $this = $(this);
+
+			if($this.hasClass('active')) return; 
+			
+			window.location = $this.data('href');
+			return;
+		});
 	}
 }
 $( document ).ready(function() {
+
     website_fn.changeLanguage();
+
+    website_fn.categoryChangeLink();
 });

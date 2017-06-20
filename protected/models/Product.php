@@ -43,7 +43,7 @@ class Product extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('proPriceL', 'required'),
-			array('catID, proPriceL, proView, proSortID', 'numerical', 'integerOnly'=>true),
+			array('catID, proPriceM, proPriceL, proView, proSortID', 'numerical', 'integerOnly'=>true),
 			array('proCode', 'length', 'max'=>50),
 			array('proName', 'length', 'max'=>200),
 			array('proNameE, proPriceM', 'length', 'max'=>255),
@@ -77,7 +77,7 @@ class Product extends CActiveRecord
 			'proCode' => 'Pro Code',
 			'proName' => 'Pro Name',
 			'proNameE' => 'Pro Name E',
-			'proPriceM' => 'Pro Price M',
+			'proPriceM' => 'Giá Gốc',
 			'proPriceL' => 'Pro Price L',
 			'proThumbImageURL' => 'Pro Thumb Image Url',
 			'proFullImageURL' => 'Pro Full Image Url',

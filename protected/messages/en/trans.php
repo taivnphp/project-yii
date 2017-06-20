@@ -6,7 +6,8 @@ return array (
     'About_Us' => 'About Us',
     'Contact' => 'Contact',
     'Question' => 'Question',
-    'Product' => 'Product', 
+    'Product' => 'Product',
+    'Products' => 'Products',
     'Error' => 'Error', 
     'Address' => 'Address',
     'sign_up_for_new_letter' => 'SIGN UP FOR NEWSLETTER!',
@@ -28,6 +29,12 @@ return array (
     'Store Information' => 'Store Information',
     'proNEW' => 'NEW',
     'proHOT' => 'HOT',
-    'Product_not_found' => 'Product Not Found'
+    'Product_not_found' => 'Product Not Found',
+    'Categories' => 'Categories',
+    'Category_not_found' => 'Category Not Found',
+    'Search' => 'Search',
+    'Search_Button' => 'Submit',
+    'Items' => 'Items',
+    'View Card' => 'View Card'
 );
 ?>

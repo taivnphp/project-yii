@@ -2,8 +2,9 @@
 $proPhotoURL = $uploadPath . $productModel->proID . '/' . $productModel->proThumbImageURL;
 $productAlias = ($language == 'vi') ? Yii::app()->helper->getAliasURL($productModel->proName) : Yii::app()->helper->getAliasURL($productModel->proNameE);
 $productLink = Yii::app()->createUrl('/product/'.$productModel->proID . '?' . $productAlias);
+if(empty($column)) $column = 'col-md-3';
 ?>
-<div class="col-md-3 product-men">
+<div class="<?php echo $column ?> product-men">
 	<div class="men-pro-item simpleCart_shelfItem">
 		<div class="men-thumb-item">
 			<img src="<?php echo $proPhotoURL; ?>" alt="" class="pro-image-front">
@@ -21,7 +22,7 @@ $productLink = Yii::app()->createUrl('/product/'.$productModel->proID . '?' . $p
 					<span class="item_price"><?php echo number_format($productModel->proPriceM) . 'VNĐ'; ?></span>
 				<?php } ?>				
 			</div>
-			<a href="#" class="item_add single-item hvr-outline-out button2" data-product-id=<?php echo $productModel->proID; ?>><?php echo Yii::t('trans', 'Add to cart'); ?></a>
+			<a href="#" class="single-item hvr-outline-out button2" data-product-id=<?php echo $productModel->proID; ?>><?php echo Yii::t('trans', 'Add to cart'); ?></a>
 		</div>
 	</div>
 </div>

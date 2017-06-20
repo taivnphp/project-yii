@@ -58,6 +58,10 @@ class SiteController extends Controller {
         $this->render('contact');
     }
 
+    public function actionNews(){
+        $this->render('news');   
+    }
+
     public function actionChangeLanguage() {
         $lang = Yii::app()->request->getParam('lang', 'en');
         Yii::app()->session['sess_lang'] = $lang;

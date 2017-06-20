@@ -15,7 +15,7 @@
           <ul class="nav navbar-nav menu__list">
             <li class="active menu__item <?php if($controllerId=='site' && $actionId=='index'){echo 'menu__item--current';} ?> "><a class="menu__link" href="<?php echo Yii::app()->getBaseUrl(true); ?>"><?php echo Yii::t('trans', 'Home'); ?></a></li>
             <li class="active menu__item "><a class="menu__link" href="<?php echo Yii::app()->createUrl('site/about'); ?>"><?php echo Yii::t('trans', 'About_Us'); ?></a></li>
-            <li class="dropdown menu__item">
+            <li class="dropdown menu__item <?php if($controllerId=='product' || $controllerId=='category'){echo 'menu__item--current';} ?> "">
                 <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo Yii::t('trans', 'Product'); ?> <span class="caret"></span></a>
                 <ul class="dropdown-menu multi-column columns-3">
                     <div class="row">                        
@@ -46,14 +46,13 @@
 </div>
 <div class="top_nav_right">    
     <div class="cart box_1">
-        <a href="checkout.html">
+        <a href="<?php echo Yii::app()->createUrl('payment/checkout'); ?>">
             <h3> <div class="total">
                 <i class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></i>
-                <span class="simpleCart_total">$0.00</span> (<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> items)</div>
-                
+                (<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> <?php echo Yii::t('trans', 'Items'); ?>)</div>
             </h3>
-        </a>
-        <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>                
+        </a>     
+        <p><a href="<?php echo Yii::app()->createUrl('payment/checkout'); ?>" style="color: #fff"><?php echo Yii::t('trans', 'View Card'); ?></a></p>   
     </div>  
 </div>
 <div class="clearfix"></div>

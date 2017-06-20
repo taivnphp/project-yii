@@ -1,7 +1,17 @@
 <?php
 $maxQuantity = 10; //Set Max Of Quantity
-//echo Yii::app()->language;
+$breadcrumbs = array();
+$breadcrumbs[] = ($language == 'vi') ? $product->proName : $product->proNameE;
+$this->breadcrumbs = $breadcrumbs;
 ?>
+<style type="text/css">
+    .related_products{
+        margin-top: 20px
+    }
+    .related_products h1{
+        padding: 10px 0px;
+    }
+</style>
 <div class="single">
     <div class="container">
         <div class="col-md-6 single-right-left animated wow slideInUp animated" data-wow-delay=".5s">
@@ -100,19 +110,20 @@ $maxQuantity = 10; //Set Max Of Quantity
     
     <!-- Relational Products -->
     <div class="container">
-        <div class="related_products" style="margin-top: 20px">        	
+        <div class="related_products">        	
             <h1><?php echo Yii::t('trans', 'Related_Products'); ?></h1>
             <?php
             $relatedProducts = Product::model()->getRelatedProducts($product->catID, $product->proID);
             if(!empty($relatedProducts)){ 
-            	foreach ($relatedProducts as $productModel) {
-            		# code...
+            	foreach ($relatedProducts as $productModel) {            		
             		$this->renderPartial('product_item' , array(
             			'productModel' => $productModel,
             			'uploadPath' => $uploadPath,
-            			'language' => $language
+            			'language' => $language,
+            			'column' => 'col-md-3'
         			));
             	}
+            	$relatedProducts = NULL;
         	?>           
             <?php }		
             else{

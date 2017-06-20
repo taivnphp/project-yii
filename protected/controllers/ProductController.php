@@ -55,7 +55,7 @@ class ProductController extends Controller{
             if (isset($_FILES["ProductThumbnail"]) && !empty($_FILES["ProductThumbnail"]['name'])){
                 $fileProductThumbnail = $_FILES["ProductThumbnail"];
                 $ext = strtolower(pathinfo($fileProductThumbnail['name'], PATHINFO_EXTENSION));                
-                $product->proThumbImageURL = 'product_thumb_' . $id . '.' . $ext ;                
+                $product->proThumbImageURL = md5('thumb' . time()) . '.' . $ext ;                
             }
             
 
@@ -79,7 +79,7 @@ class ProductController extends Controller{
                 $productPhotos = isset($_FILES['ProductPhotos']) ? $_FILES['ProductPhotos'] : array();
                 ProductPhoto::model()->uploadProductPhotos($productPhotos, $productId, $uploadPath);
 
-                Yii::app()->user->setFlash('message', 'Thong tin san pham have been saved');
+                Yii::app()->user->setFlash('message', 'Thông tin sản phẩm đã được lưu');
                 $this->redirect(array('update', 'id' => $productId));
             }
         }
@@ -127,7 +127,7 @@ class ProductController extends Controller{
                 $productPhotos = isset($_FILES['ProductPhotos']) ? $_FILES['ProductPhotos'] : array();
                 ProductPhoto::model()->uploadProductPhotos($productPhotos, $productId, $uploadPath);
 
-                Yii::app()->user->setFlash('message', 'Thong tin san pham have been saved');
+                Yii::app()->user->setFlash('message', 'Thông tin sản phẩm đã được lưu');
                 $this->redirect(array('update', 'id' => $productId));
             }
         }

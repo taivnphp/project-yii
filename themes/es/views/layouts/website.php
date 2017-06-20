@@ -24,7 +24,7 @@ Yii::app()->language=$language;
         <!-- //for-mobile-apps -->
         <link rel="stylesheet" href="<?php echo $themeBaseURL; ?>css/flexslider.css" type="text/css" media="screen" />
         <link href="<?php echo $themeBaseURL; ?>css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-        <link href="<?php echo $themeBaseURL; ?>css/style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="<?php echo $themeBaseURL . 'css/style.css?k=' . $randomkey; ?>" rel="stylesheet" type="text/css" media="all">
         <!-- js -->
         <script type="text/javascript" src="<?php echo $themeBaseURL; ?>js/jquery-2.1.4.min.js"></script>
         <!-- //js -->
@@ -37,6 +37,7 @@ Yii::app()->language=$language;
         <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic" rel="stylesheet" type="text/css">
         <script src="<?php echo $themeBaseURL; ?>js/jquery.easing.min.js"></script>
+        
         <script src="<?php echo $themeBaseURL; ?>js/jquery.flexslider.js"></script> <!--Product Photo Sliders -->
         <script src="<?php echo $themeBaseURL; ?>js/imagezoom.js"></script><!--Product Photo Image Zooms -->
 
@@ -85,6 +86,20 @@ Yii::app()->language=$language;
             </div>
         </div>
 
+        <div class="page-head">
+            <div class="container">
+                <?php if(isset($this->breadcrumbs)):?>
+                <div class='pathway'>
+                    <?php $this->widget('zii.widgets.CBreadcrumbs', array(
+                        'homeLink'=>CHtml::link(Yii::t('trans','Home'), array('site/index')),
+                        'links'=>$this->breadcrumbs,
+                        'encodeLabel' => false,
+                        'separator' => ''
+                    )); ?>
+                </div><!-- breadcrumbs -->
+                <?php endif?>                
+            </div>
+        </div>
             
         <div class="mainContent">
             <?php echo $content; ?>
@@ -142,13 +157,11 @@ Yii::app()->language=$language;
                     <div class="sign-grds">
                         <div class="col-md-4 sign-gd">
                             <h4>Link</h4>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="mens.html">Men's Wear</a></li>
-                                <li><a href="womens.html">Women's Wear</a></li>
-                                <li><a href="electronics.html">Electronics</a></li>
-                                <li><a href="codes.html">Short Codes</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                            <ul>                                
+                                <li><a href="<?php echo Yii::app()->getBaseUrl(true); ?>"><?php echo Yii::t('trans', 'Home'); ?></a></li>
+                                <li><a href="<?php echo Yii::app()->createUrl('site/about'); ?>"><?php echo Yii::t('trans', 'About_Us'); ?></a></li>
+                                <li><a href="<?php echo Yii::app()->createUrl('site/question'); ?>"><?php echo Yii::t('trans', 'Question'); ?></a></li>
+                                <li><a href="<?php echo Yii::app()->createUrl('site/contact'); ?>"><?php echo Yii::t('trans', 'Contact'); ?></a></li>
                             </ul>
                         </div>
                         
@@ -167,11 +180,13 @@ Yii::app()->language=$language;
                 <p class="copy-right">Copy Right © <?php echo date('Y'); ?></p>
             </div>
         </div>
+        <a class="backToTop" style="width: 100px;height: 100px;position: fixed;bottom: 0;right: 0;background: red;color: #fff">Top</a>
         <!-- //footer -->
         <script type="text/javascript">
             var _urlChangeLanguage='<?php echo Yii::app()->createUrl('site/ChangeLanguage'); ?>';
         </script>
         <script type="text/javascript" src="<?php echo $themeBaseURL; ?>js/script.js?k=<?php echo $randomkey?>"></script>
+
 
     </body>
 </html>

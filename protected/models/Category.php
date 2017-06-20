@@ -17,6 +17,7 @@
  */
 class Category extends CActiveRecord
 {
+	public $keyword;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -105,6 +106,7 @@ class Category extends CActiveRecord
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+			'pagination' => array('pageSize' => 30)
 		));
 	}
 
@@ -143,16 +145,13 @@ class Category extends CActiveRecord
 		return $catName ? $catName : 'N/A';
 	}
 
-
-		//echo Yii::app()->language
-
 	public static function getListCatogoryByLanguage($language){
 
 		if($language == 'vi'){
 			$select = "`catID` as id, `catName` as name";
 		}
 		else $select = "`catID` as id, `catNameE` as name";
-		$sql = "SELECT $select FROM `tblcategory` order by name";
+		$sql = "SELECT $select FROM `tblcategory` order by catSortID ASC ";
 
 		$result = Yii::app()->db->createCommand($sql)->queryAll();		
 		$data=array();
@@ -165,5 +164,17 @@ class Category extends CActiveRecord
 		}
 		$result = null;
 		return $data;
+	}
+
+	public function doDeleteCategory($catID, $uploadFilesFolder){
+		$modelCategory = $this->findByPk($catID);
+		
+		if(!empty($modelCategory)){
+			
+			$modelCategory->delete();
+
+			$categoryFolder = $uploadFilesFolder.'/category/' . $catID;
+			@rmdir($categoryFolder);
+		}     
 	}
 }
