@@ -28,7 +28,7 @@ var website_fn = {
 		$('.cat-menu-link').click(function(){
 			var $this = $(this);
 
-			if($this.hasClass('active')) return; 
+			if($this.hasClass('active')) return;
 			
 			window.location = $this.data('href');
 			return;

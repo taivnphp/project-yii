@@ -43,7 +43,7 @@ $currentCatLink='';
 	                        	$class = 'cat-menu-link';
 	                        }	                        	                       
 	                    ?>
-	                        <li class="<?php echo $class; ?>" data-href="<?php echo $catLink; ?>"><input type="checkbox"  id="item-0"><label for="item-0"><span></span><?php echo $catInfo['name']; ?></label></li>
+	                        <li class="<?php echo $class; ?>" data-href="<?php echo $catLink; ?>"><input type="checkbox"><label for="item-0"><span></span><?php echo $catInfo['name']; ?></label></li>
 	                    <?php } 
 					} ?>
 				</ul>
@@ -63,7 +63,7 @@ $currentCatLink='';
 		</div>
 		<div class="col-md-8 products-right">			
 			<div class="category-introduce">
-				<?php $catThumbnailURL = '/uploadFiles/category/' . $category->catID . '/' . $category->catImageURL;?>				
+				<?php $catThumbnailURL = $pUploadFiles . '/category/' . $category->catID . '/' . $category->catImageURL;?>				
 				<div class="col-sm-4 men-wear-left">											
 					<img class="img-responsive" src="<?php echo $catThumbnailURL; ?>" alt=" ">
 				</div>				
@@ -81,7 +81,7 @@ $currentCatLink='';
 						# code...											
 	            		echo $this->renderPartial('../product/product_item' , array(
 	            			'productModel' => $productModel,
-	            			'uploadPath' => '/uploadFiles/product/',
+	            			'uploadPath' => $pUploadFiles . '/product/',
 	            			'language' => $language,
 	            			'column' => 'col-md-4'
 	        			));            		            	        		

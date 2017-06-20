@@ -50,4 +50,18 @@ var product_fn = {
                             '</div>';
 		$('.item-photo-add-row').prepend($htmlItemPhoto);
     }
+    ,
+    previewPhoto:function(){
+        $('.img_admin_thumb ').click(function(){
+            var $this = $(this),
+                $imgSrc = $this.prop('src');
+
+                $('#modalPhotoPreview').modal('show');
+                $('#modalPhotoPreview .modal-body').html('<img src="' + $imgSrc + '" />');
+            
+        });
+    }
 }
+$( document ).ready(function() {
+    product_fn.previewPhoto();
+});

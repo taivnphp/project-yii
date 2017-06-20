@@ -59,7 +59,7 @@ $this->breadcrumbs = array(Yii::t('trans', 'Manage Product'));
                                 'value' => function ($data) use ($uploadPath){
                                     if(!empty($data['proThumbImageURL'])){
                                         $proThumbImageURL = $uploadPath . $data['proID'] .'/'. $data['proThumbImageURL'];
-                                        return '<img src="'.$proThumbImageURL . '" style="height:100px" />';        
+                                        return '<img src="'.$proThumbImageURL . '" class="img_admin_thumb" />';        
                                     }
                                     return '';                                    
                                 }                                

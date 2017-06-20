@@ -5,7 +5,7 @@
 		max-height: 700px;
 	}
 </style>
-<div id="modalPhotoPreview" class="modal fade" role="dialog">
+<div id="modalPhotoPreview" class="modal fade" role="dialog" data-keyboard="true">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -16,9 +16,6 @@
       </div>
       <div class="modal-body">
         
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
 

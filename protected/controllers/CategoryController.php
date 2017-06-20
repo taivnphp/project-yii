@@ -174,7 +174,8 @@ class CategoryController extends Controller
             'listCategories' => Category::model()->getListCatogoryByLanguage($this->getLanguage()),
             'language' => $this->getLanguage(),
             'listProducts' => $products->search()->getData(),
-            'keyword' => $keyword         
+            'keyword' => $keyword,
+            'pUploadFiles' => Yii::app()->request->baseUrl . Yii::app()->params->pathForUploadFiles 
         ));
     }
     

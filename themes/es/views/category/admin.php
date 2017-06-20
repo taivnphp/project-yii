@@ -26,8 +26,7 @@ $this->breadcrumbs = array(Yii::t('trans', 'Manage Category'));
                     $template = '<div class="cp-toolbar">
                         <h3>{summary}</h3>
                         <ul class="nav">
-                            <li><a title="Create New Category" href="' . Yii::app()->createUrl('category/create') . '" class="bl-plus"><i class="fa fa-plus"></i></a></li>
-                            <li><a href="javascript:;" onclick="product_fn.deleteProducts()" data-toggle="tooltip" data-placement="top" title="Delete Products" class="ctr-save left-tooltip"><i class="fa fa-trash-o"></i></a></li>
+                            <li><a title="Create New Category" href="' . Yii::app()->createUrl('category/create') . '" class="bl-plus"><i class="fa fa-plus"></i></a></li>                            
                         </ul>
                     </div><div class="tbl-data"><div class="blk-tbl">{items}</div></div><div class="paging-blk"><div class="f-r">{pager}</div></div>';
                     
@@ -40,6 +39,7 @@ $this->breadcrumbs = array(Yii::t('trans', 'Manage Category'));
                         'summaryText'  => '{count} danh muc',
                         'ajaxUpdate'    =>true,
                         'columns'      => array(   
+                            /*
                             array(
                                 'header'            => '<input type="checkbox" onclick="product_fn.checkAllProduct(this.checked);"/>',
                                 'headerHtmlOptions' => array(
@@ -47,7 +47,7 @@ $this->breadcrumbs = array(Yii::t('trans', 'Manage Category'));
                                 ),
                                 'type'  => 'raw',
                                 'value' => 'CHtml::checkbox("ProductDelete[]", "", array("value" => $data["catID"], "class" => "cb_pro_checkbox"))'
-                            ),   
+                            ),   */
                             array(                
                                 'header' => 'Thumbnail',
                                 'type' => 'raw',

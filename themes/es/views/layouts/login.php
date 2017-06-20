@@ -14,7 +14,7 @@ $randomkey    = Yii::app()->helper->generateRandomString();
         <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,600,800,400" rel="stylesheet" type="text/css">        
-        <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.css">
+        <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/admin/css/style.css">
     </head>
     <body class="landing blank">
         <header class="header">            

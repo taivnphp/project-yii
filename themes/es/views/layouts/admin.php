@@ -27,7 +27,7 @@ Yii::app()->language = 'vi';
     <body class="gap-in-cared expanded">
         <header class="header">
             <div class="header-bar">
-                <div class="mm-menu"><a href="/" class="call-main-menu" title="<?php echo Yii::t('trans', 'Back_To_Home'); ?>"> <i class="fa fa-home"></i> <span><?php echo Yii::t('trans', 'Back_To_Home'); ?></span></a></div>
+                <div class="mm-menu"><a href="<?php echo Yii::app()->getBaseUrl(true); ?>" class="call-main-menu" title="<?php echo Yii::t('trans', 'Back_To_Home'); ?>"> <i class="fa fa-home"></i> <span><?php echo Yii::t('trans', 'Back_To_Home'); ?></span></a></div>
                 <div class="header-top-bar">
                     <div class="row-clearfix">
                         <div class="tbar search-frm col-4">
@@ -76,7 +76,7 @@ Yii::app()->language = 'vi';
                     <?php if(isset($this->breadcrumbs)):?>
                     <div class='pathway'>
                         <?php $this->widget('zii.widgets.CBreadcrumbs', array(
-                            'homeLink'=>CHtml::link(Yii::t('trans','Home'), array('/site/index')),
+                            'homeLink'=>CHtml::link(Yii::t('trans','Home'),  Yii::app()->getBaseUrl(true)),
                             'links'=>$this->breadcrumbs,
                             'encodeLabel' => false,
                             'separator' => ''
@@ -93,6 +93,10 @@ Yii::app()->language = 'vi';
         <footer class="footer">
             <p class="t-c">Copy Right © <?php echo date('Y'); ?></p>
         </footer>
+        <?php 
+        //Load Photo Preview Widget
+        $this->widget("ext.widgets.photo_preview_widget");
+        ?>
         <div id="cover"></div>
         <div id="popupMessage"></div>
         <script type="text/javascript">

@@ -58,7 +58,7 @@ Yii::app()->language=$language;
         <div class="header-bot">
             <div class="container">
                 <div class="col-md-3 header-left">
-                    <h1><a href="index.html"><img src="<?php echo $themeBaseURL; ?>images/logo3.jpg"></a></h1>
+                    <h1><a href="<?php echo Yii::app()->getBaseUrl(true); ?>"><img src="<?php echo $themeBaseURL; ?>images/logo3.jpg"></a></h1>
                 </div>
                 <div class="col-md-5 header-right">
                     <?php 
@@ -91,7 +91,7 @@ Yii::app()->language=$language;
                 <?php if(isset($this->breadcrumbs)):?>
                 <div class='pathway'>
                     <?php $this->widget('zii.widgets.CBreadcrumbs', array(
-                        'homeLink'=>CHtml::link(Yii::t('trans','Home'), array('site/index')),
+                        'homeLink'=>CHtml::link(Yii::t('trans','Home'), Yii::app()->getBaseUrl(true)),
                         'links'=>$this->breadcrumbs,
                         'encodeLabel' => false,
                         'separator' => ''
@@ -140,7 +140,7 @@ Yii::app()->language=$language;
         <div class="footer">
             <div class="container">
                 <div class="col-md-3 footer-left">
-                    <h2><a href="index.html"><img src="<?php echo $themeBaseURL; ?>images/logo3.jpg" alt=" "></a></h2>
+                    <h2><a href="<?php echo Yii::app()->getBaseUrl(true); ?>"><img src="<?php echo $themeBaseURL; ?>images/logo3.jpg" alt=" "></a></h2>
                     <p><?php echo Yii::t('trans', 'shop_short_introduce');?></p>
                 </div>
                 <div class="col-md-9 footer-right">
