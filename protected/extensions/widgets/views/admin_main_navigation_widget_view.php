@@ -2,6 +2,18 @@
 $menuItems  = array();
 
 // Products List
+
+$menuItems[]=array(
+    'label'=>'<i class="fa fa-database"> </i>' . Yii::t('trans', 'Sliders'),
+    'url'=>array('slider/admin'),
+    'itemOptions' => array(
+        'class' => 'left-tooltip',
+        'title' => Yii::t('trans', 'Manage Slider'),
+        'data-placement' => 'right',
+        'data-toggle' => "tooltip"
+    ),
+);
+
 $menuItems[]=array(
     'label'=>'<i class="fa fa-database"> </i>' . Yii::t('trans', 'Manage Category'),
     'url'=>array('category/admin'),
