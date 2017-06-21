@@ -38,23 +38,14 @@ $this->breadcrumbs = array(Yii::t('trans', 'Manage Category'));
                         'template'     => $template,
                         'summaryText'  => '{count} danh muc',
                         'ajaxUpdate'    =>true,
-                        'columns'      => array(   
-                            /*
-                            array(
-                                'header'            => '<input type="checkbox" onclick="product_fn.checkAllProduct(this.checked);"/>',
-                                'headerHtmlOptions' => array(
-                                    'style' => 'width:100px;'
-                                ),
-                                'type'  => 'raw',
-                                'value' => 'CHtml::checkbox("ProductDelete[]", "", array("value" => $data["catID"], "class" => "cb_pro_checkbox"))'
-                            ),   */
+                        'columns'      => array(                           
                             array(                
                                 'header' => 'Thumbnail',
                                 'type' => 'raw',
                                 'value' => function ($data) use ($uploadPath){
                                     if(!empty($data['catImageURL'])){
                                         $catThumbImageURL = $uploadPath . $data['catID'] .'/'. $data['catImageURL'];
-                                        return '<img src="'.$catThumbImageURL . '" style="height:100px" />';        
+                                        return '<img src="'.$catThumbImageURL . '" class="img_admin_thumb" />';        
                                     }
                                     return '';
                                 }                                
