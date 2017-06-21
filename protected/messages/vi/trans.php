@@ -36,6 +36,10 @@ return array (
     'Search' => 'Tìm Kiếm',
     'Search_Button' => 'Tìm',
     'Items' => 'Sản Phẩm',
-    'View Card' => 'Xem Giỏ Hàng'
+    'View Card' => 'Xem Giỏ Hàng',
+    'Latest_Products' => 'Sản Phẩm Mới',
+    'Special_Offers' => 'Sản Phẩm khuyến mãi',
+    'View On Map' => 'Bản Đồ',
+    'Contact_Form' => 'Liên Hệ'
 );
 ?>

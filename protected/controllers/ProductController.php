@@ -202,4 +202,29 @@ class ProductController extends Controller{
         //Render to view
         $this->render('demo', array('randomProduct'=>$randomProduct));
     }
+
+    /*
+    Load List Products
+    */
+    public function actionAjaxLoadProduct(){
+        $productType = Yii::app()->request->getParam('type');
+        $language = $this->getLanguage();
+        $uploadPath = Yii::app()->request->baseUrl . Yii::app()->params->pathForUploadFiles ;
+        if($productType == 'new'){
+            $html = $this->renderPartial( "newProductGrid", array(
+                'newProducts' => Product::model()->getNewProducts(),
+                'language' => $language,
+                'uploadPath' => $uploadPath
+            ), true, true);
+        }
+        else if($productType == 'hot'){
+            $html = $this->renderPartial( "hotProductGrid", array(
+                'hotProducts' => Product::model()->getHotProducts(),
+                'language' => $language,
+                'uploadPath' => $uploadPath
+            ), true, true);
+        }
+        else $html='';
+        echo $html;exit;
+    }
 }

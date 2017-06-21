@@ -1,3 +1,4 @@
+//<![CDATA[	
 var website_fn = {
 	changeLanguage: function(){
 		if(!$('.setLanguage').length) return;
@@ -34,6 +35,11 @@ var website_fn = {
 			return;
 		});
 	},
+	showHomeProducts:function(){
+		if($('#horizontalTab').length){
+			$('#horizontalTab').show();
+		}
+	},
 	backToTop:function(){
 		$('a.backToTop').click(function(){
 			$('html, body').animate({scrollTop : 0},800);
@@ -41,7 +47,7 @@ var website_fn = {
 		});
 	}
 }
-
+/* Window Scroll */
 $(window).scroll(function(){
 	if ($(this).scrollTop() > 100) {
 		$('.backToTop').fadeIn();
@@ -49,10 +55,13 @@ $(window).scroll(function(){
 		$('.backToTop').fadeOut();
 	}
 });
-	
+
 $( document ).ready(function() {
 	website_fn.backToTop();
     website_fn.changeLanguage();
-
     website_fn.categoryChangeLink();
+
+    website_fn.showHomeProducts();
 });
+
+//]]>

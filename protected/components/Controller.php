@@ -23,7 +23,8 @@ class Controller extends CController
 	 */
 	public $breadcrumbs=array();
     protected $pUploadFiles;
-    public function  beforeAction($action){              
+    public function  beforeAction($action){        
+
     	$this->pUploadFiles = $_SERVER['DOCUMENT_ROOT'].Yii::app()->request->baseUrl . Yii::app()->params->pathForUploadFiles;
     	if(!is_dir($this->pUploadFiles)){
             $old = umask(0);
@@ -38,6 +39,8 @@ class Controller extends CController
                 umask($old);
             }
         }
+
+        $this->setLanguage();
         return true;
     }
 

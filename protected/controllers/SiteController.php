@@ -22,7 +22,12 @@ class SiteController extends Controller {
      * when an action is not explicitly requested by users.
      */
     public function actionIndex() {
-        $this->render('index');
+        $this->setLanguage();
+        $this->render('index', array(
+            'slideShows' => SlideShow::model()->getSlideShows(),
+            'uploadPath' => Yii::app()->request->baseUrl . Yii::app()->params->pathForUploadFiles,
+            'language' => $this->getLanguage(),
+        ));
     }
 
     public function actionLogin() {
@@ -54,7 +59,7 @@ class SiteController extends Controller {
         $this->render('question');
     }
 
-    public function actionContact() {
+    public function actionContact() {        
         $this->render('contact');
     }
 

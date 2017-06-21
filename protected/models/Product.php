@@ -179,4 +179,25 @@ class Product extends CActiveRecord
 	public static function buildProductViewLink($proID, $proName){
 		return Yii::app()->createUrl("product/view", array("id" => $proID)) . '?' . Yii::app()->helper->getAliasURL($proName);
 	}
+
+	/**
+	Get New Products
+	**/
+
+	public function getNewProducts($catID=0){
+		$conditions = "proNEW = 1";
+		if($catID) $conditions.= " and catID=$catID";
+		$newProducts = $this->findAll($conditions);
+		return $newProducts;
+	}
+
+	/*
+	Get Hot Products
+	*/
+	public function getHotProducts($catID=0){
+		$conditions = "proHOT = 1";
+		if($catID) $conditions.= " and catID=$catID";
+		$hotProducts = $this->findAll($conditions);
+		return $hotProducts;
+	}
 }

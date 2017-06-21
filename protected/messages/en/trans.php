@@ -35,6 +35,10 @@ return array (
     'Search' => 'Search',
     'Search_Button' => 'Submit',
     'Items' => 'Items',
-    'View Card' => 'View Card'
+    'View Card' => 'View Card',
+    'Latest_Products' => 'New Products',
+    'Special_Offers' => 'Special Offers',
+    'View On Map' => 'View On Map',
+    'Contact_Form' => 'CONTACT FORM'
 );
 ?>
