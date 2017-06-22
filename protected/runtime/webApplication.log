@@ -15439,3 +15439,2003 @@ in /var/www/project_yii/protected/extensions/widgets/views/language_widget_view.
 in /var/www/project_yii/protected/models/Category.php (157)
 2017/06/16 15:35:19 [trace] [system.CModule] Loading "clientScript" application component
 in /var/www/project_yii/protected/controllers/SiteController.php (45)
+2017/06/22 16:31:54 [info] [application] User: yiier (ID: yiier)
+
+$_POST=array (
+  'YII_CSRF_TOKEN' => '8bfdf0a94a8c0e17541774e8968f80dfaa5ff2de',
+  'ControllerCode' => 
+  array (
+    'controller' => 'NewsController',
+    'baseClass' => 'Controller',
+    'actions' => 'index',
+    'template' => 'default',
+  ),
+  'preview' => 'Preview',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => 'r6nnohef4c528fm2oac2v86op5',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '8bfdf0a94a8c0e17541774e8968f80dfaa5ff2de',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__returnUrl' => '/gii/default',
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://project_yii.dev/gii/controller/index',
+  'HTTP_COOKIE' => 'PHPSESSID=r6nnohef4c528fm2oac2v86op5',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'CONTENT_LENGTH' => '229',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '48540',
+  'REDIRECT_URL' => '/gii/controller/index',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/controller/index',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498123914.72,
+  'REQUEST_TIME' => 1498123914,
+)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:31:54 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:31:54 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:31:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:31:54 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:31:54 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [info] [application] User: yiier (ID: yiier)
+
+$_POST=array (
+  'YII_CSRF_TOKEN' => '8bfdf0a94a8c0e17541774e8968f80dfaa5ff2de',
+  'ControllerCode' => 
+  array (
+    'controller' => 'News',
+    'baseClass' => 'Controller',
+    'actions' => 'index',
+    'template' => 'default',
+  ),
+  'preview' => 'Preview',
+  'answers' => 
+  array (
+    '3d8f1a15265126f0579bb646c25c8b9d' => '1',
+    'bc5a49d35dddfbc5b6340ba8bc8fbe70' => '1',
+  ),
+  'checkAll' => 'on',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => 'r6nnohef4c528fm2oac2v86op5',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '8bfdf0a94a8c0e17541774e8968f80dfaa5ff2de',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__returnUrl' => '/gii/default',
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://project_yii.dev/gii/controller/index',
+  'HTTP_COOKIE' => 'PHPSESSID=r6nnohef4c528fm2oac2v86op5',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'CONTENT_LENGTH' => '336',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '48676',
+  'REDIRECT_URL' => '/gii/controller/index',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/controller/index',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498123930.007,
+  'REQUEST_TIME' => 1498123930,
+)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:10 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:10 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:10 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [info] [application] User: yiier (ID: yiier)
+
+$_POST=array (
+  'YII_CSRF_TOKEN' => '8bfdf0a94a8c0e17541774e8968f80dfaa5ff2de',
+  'ControllerCode' => 
+  array (
+    'controller' => 'News',
+    'baseClass' => 'Controller',
+    'actions' => 'index',
+    'template' => 'default',
+  ),
+  'generate' => 'Generate',
+  'answers' => 
+  array (
+    'b824af490b45b2aab98f02cd445b9be2' => '1',
+  ),
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => 'r6nnohef4c528fm2oac2v86op5',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '8bfdf0a94a8c0e17541774e8968f80dfaa5ff2de',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__returnUrl' => '/gii/default',
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://project_yii.dev/gii/controller/index',
+  'HTTP_COOKIE' => 'PHPSESSID=r6nnohef4c528fm2oac2v86op5',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'CONTENT_LENGTH' => '278',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '48792',
+  'REDIRECT_URL' => '/gii/controller/index',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/controller/index',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498123943.4449999,
+  'REQUEST_TIME' => 1498123943,
+)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:23 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:23 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:23 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [info] [application] User: yiier (ID: yiier)
+
+$_COOKIE=array (
+  'PHPSESSID' => 'r6nnohef4c528fm2oac2v86op5',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '8bfdf0a94a8c0e17541774e8968f80dfaa5ff2de',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__returnUrl' => '/gii/default',
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://project_yii.dev/gii/controller/index',
+  'HTTP_COOKIE' => 'PHPSESSID=r6nnohef4c528fm2oac2v86op5',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '48972',
+  'REDIRECT_URL' => '/gii/model/index',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/model/index',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498123967.375,
+  'REQUEST_TIME' => 1498123967,
+)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `Session`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Session`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblaccount`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblaccount`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblalbum`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblalbum`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblbannertrade`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblbannertrade`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcertification`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcertification`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcontact`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcontact`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblnews`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblnews`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblnewscategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblnewscategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblorder`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblorder`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproduct`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproduct`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproductphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproductphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblservice`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblservice`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblslideshow`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblslideshow`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblstore`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblstore`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblsupport`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblsupport`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:32:47 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:39 [info] [application] $_GET=array (
+  'thuoc-ubb-cinnamon-cap-3232_html' => '',
+  'id' => '4',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => 'j9rt9n7akq4vbclmallge0mij1',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/product/7?tadasdas-da.html',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=j9rt9n7akq4vbclmallge0mij1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '50874',
+  'REDIRECT_QUERY_STRING' => 'thuoc-ubb-cinnamon-cap-3232.html',
+  'REDIRECT_URL' => '/product/4',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => 'thuoc-ubb-cinnamon-cap-3232.html',
+  'REQUEST_URI' => '/product/4?thuoc-ubb-cinnamon-cap-3232.html',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498124979.2909999,
+  'REQUEST_TIME' => 1498124979,
+)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:39 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:39 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:39 [trace] [system.db.ar.CActiveRecord] Product.findByPk()
+in /var/www/project_yii_git/protected/controllers/ProductController.php (13)
+2017/06/22 16:49:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproduct`
+in /var/www/project_yii_git/protected/controllers/ProductController.php (13)
+2017/06/22 16:49:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproduct`
+in /var/www/project_yii_git/protected/controllers/ProductController.php (13)
+2017/06/22 16:49:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tblproduct` `t` WHERE `t`.`proID`=4 LIMIT 1
+in /var/www/project_yii_git/protected/controllers/ProductController.php (13)
+2017/06/22 16:49:39 [trace] [system.db.ar.CActiveRecord] Product.update()
+in /var/www/project_yii_git/protected/controllers/ProductController.php (189)
+2017/06/22 16:49:39 [trace] [system.db.ar.CActiveRecord] Product.updateByPk()
+in /var/www/project_yii_git/protected/controllers/ProductController.php (189)
+2017/06/22 16:49:39 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `tblproduct` SET `proID`=:yp0, `catID`=:yp1, `proCode`=:yp2, `proName`=:yp3, `proNameE`=:yp4, `proPriceM`=:yp5, `proPriceL`=:yp6, `proThumbImageURL`=:yp7, `proFullImageURL`=:yp8, `proShortDescription`=:yp9, `proShortDescriptionE`=:yp10, `proFullContent`=:yp11, `proFullContentE`=:yp12, `proHOT`=:yp13, `proNEW`=:yp14, `proView`=:yp15, `proSortID`=:yp16 WHERE `tblproduct`.`proID`=4
+in /var/www/project_yii_git/protected/controllers/ProductController.php (189)
+2017/06/22 16:49:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT `prophotosID`, `prophotosImageURL`, `prophotosCaption`, `prophotosSortID` FROM `tblproductphotos` WHERE `proID`=4
+in /var/www/project_yii_git/protected/models/ProductPhoto.php (165)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/protected/controllers/ProductController.php (195)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "messages" application component
+in /var/www/project_yii_git/themes/es/views/product/view.php (74)
+2017/06/22 16:49:39 [trace] [system.db.ar.CActiveRecord] Product.findAll()
+in /var/www/project_yii_git/protected/models/Product.php (175)
+2017/06/22 16:49:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tblproduct` `t` WHERE catID=:x and proID!=:y
+in /var/www/project_yii_git/protected/models/Product.php (175)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "helper" application component
+in /var/www/project_yii_git/themes/es/views/product/product_item.php (3)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (65)
+2017/06/22 16:49:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT `catID` as id, `catName` as name FROM `tblcategory` order by catSortID ASC 
+in /var/www/project_yii_git/protected/models/Category.php (156)
+2017/06/22 16:49:39 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/protected/controllers/ProductController.php (195)
+2017/06/22 16:49:40 [info] [application] $_COOKIE=array (
+  'PHPSESSID' => 'j9rt9n7akq4vbclmallge0mij1',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/product/4?thuoc-ubb-cinnamon-cap-3232.html',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=j9rt9n7akq4vbclmallge0mij1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '50874',
+  'REDIRECT_URL' => '/site/question',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/site/question',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498124980.4679999,
+  'REQUEST_TIME' => 1498124980,
+)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:40 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:40 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (60)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "messages" application component
+in /var/www/project_yii_git/themes/es/views/site/question.php (2)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "helper" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (2)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (65)
+2017/06/22 16:49:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT `catID` as id, `catName` as name FROM `tblcategory` order by catSortID ASC 
+in /var/www/project_yii_git/protected/models/Category.php (156)
+2017/06/22 16:49:40 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (60)
+2017/06/22 16:49:41 [info] [application] $_COOKIE=array (
+  'PHPSESSID' => 'j9rt9n7akq4vbclmallge0mij1',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/site/question',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=j9rt9n7akq4vbclmallge0mij1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '50874',
+  'REDIRECT_URL' => '/site/contact',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/site/contact',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498124981.1719999,
+  'REQUEST_TIME' => 1498124981,
+)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (64)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "messages" application component
+in /var/www/project_yii_git/themes/es/views/site/contact.php (2)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "helper" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (2)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (65)
+2017/06/22 16:49:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `catID` as id, `catName` as name FROM `tblcategory` order by catSortID ASC 
+in /var/www/project_yii_git/protected/models/Category.php (156)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (64)
+2017/06/22 16:49:41 [info] [application] $_COOKIE=array (
+  'PHPSESSID' => 'j9rt9n7akq4vbclmallge0mij1',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/site/contact',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=j9rt9n7akq4vbclmallge0mij1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '50876',
+  'REDIRECT_URL' => '/site/question',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/site/question',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498124981.8989999,
+  'REQUEST_TIME' => 1498124981,
+)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (60)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "messages" application component
+in /var/www/project_yii_git/themes/es/views/site/question.php (2)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "helper" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (2)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (65)
+2017/06/22 16:49:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `catID` as id, `catName` as name FROM `tblcategory` order by catSortID ASC 
+in /var/www/project_yii_git/protected/models/Category.php (156)
+2017/06/22 16:49:41 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (60)
+2017/06/22 16:49:42 [info] [application] $_COOKIE=array (
+  'PHPSESSID' => 'j9rt9n7akq4vbclmallge0mij1',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/site/question',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=j9rt9n7akq4vbclmallge0mij1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '50876',
+  'REDIRECT_URL' => '/site/contact',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/site/contact',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498124982.622,
+  'REQUEST_TIME' => 1498124982,
+)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:42 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:42 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (64)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "messages" application component
+in /var/www/project_yii_git/themes/es/views/site/contact.php (2)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "helper" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (2)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (65)
+2017/06/22 16:49:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT `catID` as id, `catName` as name FROM `tblcategory` order by catSortID ASC 
+in /var/www/project_yii_git/protected/models/Category.php (156)
+2017/06/22 16:49:42 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (64)
+2017/06/22 16:51:20 [info] [application] User: Guest (ID: )
+
+$_COOKIE=array (
+  'PHPSESSID' => 'j9rt9n7akq4vbclmallge0mij1',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=j9rt9n7akq4vbclmallge0mij1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '50886',
+  'REDIRECT_URL' => '/gii/default/login',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/default/login',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498125080.1159999,
+  'REQUEST_TIME' => 1498125080,
+)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:20 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [info] [application] User: yiier (ID: yiier)
+
+$_POST=array (
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  'LoginForm' => 
+  array (
+    'password' => '123456',
+  ),
+  'yt0' => 'Enter',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => 'j9rt9n7akq4vbclmallge0mij1',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_LENGTH' => '96',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ORIGIN' => 'http://project_yii.dev',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/gii/default/login',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=j9rt9n7akq4vbclmallge0mij1',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '50890',
+  'REDIRECT_URL' => '/gii/default/login',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/default/login',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498125085.3859999,
+  'REQUEST_TIME' => 1498125085,
+)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:51:25 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:51:25 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:51:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `Session`
+WHERE id=:id
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `Session` SET `id`=:id WHERE id=:oldID
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [info] [application] User: yiier (ID: yiier)
+
+$_COOKIE=array (
+  'PHPSESSID' => '80a1qi5ogci9fkdfgb8f97u2t7',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/gii/default/login',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=80a1qi5ogci9fkdfgb8f97u2t7',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '50890',
+  'REDIRECT_URL' => '/gii/default/index',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/default/index',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498125085.4779999,
+  'REQUEST_TIME' => 1498125085,
+)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:51:25 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [info] [application] User: yiier (ID: yiier)
+
+$_COOKIE=array (
+  'PHPSESSID' => '80a1qi5ogci9fkdfgb8f97u2t7',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/gii/default/index',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=80a1qi5ogci9fkdfgb8f97u2t7',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '51308',
+  'REDIRECT_URL' => '/gii/model/index',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/model/index',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498125148.5869999,
+  'REQUEST_TIME' => 1498125148,
+)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `Session`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Session`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblaccount`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblaccount`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblalbum`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblalbum`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblbannertrade`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblbannertrade`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcertification`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcertification`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcontact`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcontact`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblnews`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblnews`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblnewscategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblnewscategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblorder`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblorder`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproduct`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproduct`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproductphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproductphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblservice`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblservice`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblslideshow`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblslideshow`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblstore`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblstore`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblsupport`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblsupport`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:52:28 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [info] [application] User: yiier (ID: yiier)
+
+$_POST=array (
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  'ModelCode' => 
+  array (
+    'connectionId' => 'db',
+    'tablePrefix' => '',
+    'tableName' => 'tblnews',
+    'modelClass' => 'News',
+    'baseClass' => 'CActiveRecord',
+    'modelPath' => 'application.models',
+    'buildRelations' => '1',
+    'commentsAsLabels' => '0',
+    'template' => 'default',
+  ),
+  'preview' => 'Preview',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => '80a1qi5ogci9fkdfgb8f97u2t7',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_LENGTH' => '407',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ORIGIN' => 'http://project_yii.dev',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/gii/model/index',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=80a1qi5ogci9fkdfgb8f97u2t7',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '51558',
+  'REDIRECT_URL' => '/gii/model/index',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/model/index',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498125281.546,
+  'REQUEST_TIME' => 1498125281,
+)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:41 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblnews`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblnews`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `Session`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Session`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblaccount`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblaccount`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblalbum`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblalbum`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblbannertrade`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblbannertrade`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcertification`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcertification`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcontact`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcontact`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblnewscategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblnewscategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblorder`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblorder`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproduct`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproduct`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproductphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproductphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblservice`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblservice`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblslideshow`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblslideshow`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblstore`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblstore`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblsupport`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblsupport`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:41 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [info] [application] User: yiier (ID: yiier)
+
+$_GET=array (
+  'id' => '0',
+)
+
+$_POST=array (
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  'ModelCode' => 
+  array (
+    'connectionId' => 'db',
+    'tablePrefix' => '',
+    'tableName' => 'tblnews',
+    'modelClass' => 'News',
+    'baseClass' => 'CActiveRecord',
+    'modelPath' => 'application.models',
+    'buildRelations' => '1',
+    'commentsAsLabels' => '0',
+    'template' => 'default',
+  ),
+  'answers' => 
+  array (
+    '4f9efc48c43bc7e660207f0a2aacdef9' => '1',
+  ),
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => '80a1qi5ogci9fkdfgb8f97u2t7',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_LENGTH' => '448',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ORIGIN' => 'http://project_yii.dev',
+  'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'HTTP_REFERER' => 'http://project_yii.dev/gii/model/index',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=80a1qi5ogci9fkdfgb8f97u2t7',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '51558',
+  'REDIRECT_URL' => '/gii/model/code/id/0',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/gii/model/code/id/0',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498125285.895,
+  'REQUEST_TIME' => 1498125285,
+)
+2017/06/22 16:54:45 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:45 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:45 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:54:45 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.CModule] Loading "user" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblnews`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblnews`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `Session`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `Session`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblaccount`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblaccount`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblalbum`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblalbum`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblbannertrade`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblbannertrade`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcertification`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcertification`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblcontact`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblcontact`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblnewscategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblnewscategory`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblorder`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblorder`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproduct`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproduct`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproductphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproductphotos`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblservice`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblservice`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblslideshow`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblslideshow`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblstore`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblstore`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblsupport`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblsupport`
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:54:45 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:25 [info] [application] $_COOKIE=array (
+  'PHPSESSID' => '80a1qi5ogci9fkdfgb8f97u2t7',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_REFERER' => 'http://project_yii.dev/site/contact',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=80a1qi5ogci9fkdfgb8f97u2t7',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '51966',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498125445.823,
+  'REQUEST_TIME' => 1498125445,
+)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:57:25 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:57:25 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:57:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/Controller.php (72)
+2017/06/22 16:57:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT `slideshowImageURL`, `slideshowURL`, `slideshowSortID`, `slideshowCaption`, `slideshowCaptionE` FROM  `tblslideshow` ORDER BY  `slideshowSortID` ASC 
+in /var/www/project_yii_git/protected/models/SlideShow.php (111)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (30)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "messages" application component
+in /var/www/project_yii_git/themes/es/views/site/index.php (62)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "helper" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (2)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/project_yii_git/themes/es/views/layouts/website.php (65)
+2017/06/22 16:57:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT `catID` as id, `catName` as name FROM `tblcategory` order by catSortID ASC 
+in /var/www/project_yii_git/protected/models/Category.php (156)
+2017/06/22 16:57:25 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/protected/controllers/SiteController.php (30)
+2017/06/22 16:57:26 [info] [application] $_POST=array (
+  'type' => 'hot',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => '80a1qi5ogci9fkdfgb8f97u2t7',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_LENGTH' => '8',
+  'HTTP_ACCEPT' => 'text/html, */*; q=0.01',
+  'HTTP_ORIGIN' => 'http://project_yii.dev',
+  'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'HTTP_REFERER' => 'http://project_yii.dev/',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=80a1qi5ogci9fkdfgb8f97u2t7',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '51970',
+  'REDIRECT_URL' => '/product/AjaxLoadProduct',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/product/AjaxLoadProduct',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498125446.0550001,
+  'REQUEST_TIME' => 1498125446,
+)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:26 [trace] [system.db.ar.CActiveRecord] Product.findAll()
+in /var/www/project_yii_git/protected/models/Product.php (201)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproduct`
+in /var/www/project_yii_git/protected/models/Product.php (201)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproduct`
+in /var/www/project_yii_git/protected/models/Product.php (201)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tblproduct` `t` WHERE proHOT = 1
+in /var/www/project_yii_git/protected/models/Product.php (201)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/protected/controllers/ProductController.php (227)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "helper" application component
+in /var/www/project_yii_git/themes/es/views/product/product_item.php (3)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "messages" application component
+in /var/www/project_yii_git/themes/es/views/product/product_item.php (13)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/protected/controllers/ProductController.php (227)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `Session`
+WHERE id=:id
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `Session` SET `data`=:data, `expire`=:expire WHERE id=:id
+2017/06/22 16:57:26 [info] [application] $_POST=array (
+  'type' => 'new',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => '80a1qi5ogci9fkdfgb8f97u2t7',
+)
+
+$_SESSION=array (
+  'sess_lang' => 'vi',
+  'YII_CSRF_TOKEN' => '84571408932dafec4f79a5e7f68c73d6de94e21e',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__id' => '1',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__name' => 'admin',
+  '14a425a2f1fbfc41539a3eb9c5edd4d5__states' => 
+  array (
+  ),
+  'gii__id' => 'yiier',
+  'gii__name' => 'yiier',
+  'gii__states' => 
+  array (
+  ),
+)
+
+$_SERVER=array (
+  'REDIRECT_STATUS' => '200',
+  'HTTP_HOST' => 'project_yii.dev',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_LENGTH' => '8',
+  'HTTP_ACCEPT' => 'text/html, */*; q=0.01',
+  'HTTP_ORIGIN' => 'http://project_yii.dev',
+  'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'HTTP_REFERER' => 'http://project_yii.dev/',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,vi;q=0.6',
+  'HTTP_COOKIE' => 'PHPSESSID=80a1qi5ogci9fkdfgb8f97u2t7',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at project_yii.dev Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'project_yii.dev',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/project_yii_git/',
+  'SERVER_ADMIN' => 'webmaster@localhost',
+  'SCRIPT_FILENAME' => '/var/www/project_yii_git/index.php',
+  'REMOTE_PORT' => '51966',
+  'REDIRECT_URL' => '/product/AjaxLoadProduct',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/product/AjaxLoadProduct',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1498125446.0539999,
+  'REQUEST_TIME' => 1498125446,
+)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "log" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "request" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "session" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "db" application component
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM `Session` WHERE expire<:expire
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `Session`
+WHERE expire>:expire AND id=:id
+in /var/www/project_yii_git/protected/components/CustomHttpRequest.php (32)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/project_yii_git/index.php (18)
+2017/06/22 16:57:26 [trace] [system.db.ar.CActiveRecord] Product.findAll()
+in /var/www/project_yii_git/protected/models/Product.php (190)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tblproduct`
+in /var/www/project_yii_git/protected/models/Product.php (190)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tblproduct`
+in /var/www/project_yii_git/protected/models/Product.php (190)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tblproduct` `t` WHERE proNEW = 1
+in /var/www/project_yii_git/protected/models/Product.php (190)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/project_yii_git/protected/controllers/ProductController.php (220)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "helper" application component
+in /var/www/project_yii_git/themes/es/views/product/product_item.php (3)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "messages" application component
+in /var/www/project_yii_git/themes/es/views/product/product_item.php (12)
+2017/06/22 16:57:26 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/project_yii_git/protected/controllers/ProductController.php (220)
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT `id`
+FROM `Session`
+WHERE id=:id
+2017/06/22 16:57:26 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `Session` SET `data`=:data, `expire`=:expire WHERE id=:id

@@ -1,6 +1,5 @@
+## Thao tac voi Database
 
-
-==========Thao tac voi Database
 
 - cach 1 : dung lenh SQL ( Query Builder ) . link doc : http://www.yiiframework.com/doc/guide/1.1/en/database.query-builder
  
@@ -41,13 +40,14 @@
     ?>
 
 
- 
+
+## GII TOOL de tu dong generate cac file Model/Controller... 
 
 
-====TOOL de tu dong Tao cac file Model
+vao link localhost/project_name/gii/default/login 
+sau do nhap pass : 123456 
 
-vao link localhost/project_name/gii/default/login  
-sau do nhap pass : 123456 -> vo dc trang nay : http://prntscr.com/fmrz5p
+=> vo dc trang nay : http://prntscr.com/fmrz5p
 
 Sau do bam vo link Model Generator , lam theo cac buoc sau
 
@@ -56,4 +56,6 @@ step 1: http://prntscr.com/fms08k
 step 2: http://prntscr.com/fms0xz
 
 Vo thu muc protected/models de kiem tra xem Model dc tao chua => done. Model duoc tao se co day du functions basic, chi can goi ra xai. Co the viet them nhung function moi tuy y may
+
+
 
