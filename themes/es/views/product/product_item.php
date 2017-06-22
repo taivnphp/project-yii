@@ -7,8 +7,8 @@ if(empty($column)) $column = 'col-md-3';
 <div class="<?php echo $column ?> product-men">
 	<div class="men-pro-item simpleCart_shelfItem">
 		<div class="men-thumb-item">
-			<img src="<?php echo $proPhotoURL; ?>" alt="" class="pro-image-front">
-			<img src="<?php echo $proPhotoURL; ?>" alt="" class="pro-image-back">
+			<img src="<?php echo $proPhotoURL; ?>" alt="" class="pro-image-thumb pro-image-front">
+			<img src="<?php echo $proPhotoURL; ?>" alt="" class="pro-image-thumb pro-image-back">
 			<?php if($productModel->proNEW) {?><span class="product-new-top label-success"><?php echo Yii::t('trans', 'proNEW'); ?></span><?php } ?>
 			<?php if($productModel->proHOT) {?><span class="product-hot-top"><?php echo Yii::t('trans', 'proHOT'); ?></span><?php } ?>
 		</div>

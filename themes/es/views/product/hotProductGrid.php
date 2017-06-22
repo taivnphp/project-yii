@@ -1,5 +1,4 @@
 <?php 
-$hotProducts = Product::model()->getHotProducts();
 if(!empty($hotProducts)){
 	foreach ($hotProducts as $hotProductModel) {
 		echo $this->renderPartial('//product/product_item' , array(
@@ -12,3 +11,4 @@ if(!empty($hotProducts)){
 }
 $hotProducts = null;
 ?>
+<div class="clear-fix"></div>

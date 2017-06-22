@@ -33,8 +33,8 @@ $this->breadcrumbs = array(Yii::t('trans', 'Contact'));
 		</div>
 		<h3 class="tittle"><?php echo Yii::t('trans', 'Contact_Form'); ?></h3>
 		<form>
-			<div class="contact-form2">
-				<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+			<div class="contact-form2">			
+				<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">				
 				<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
 				<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
 				<input type="submit" value="<?php echo Yii::t('trans', 'Submit');?>">

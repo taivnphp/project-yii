@@ -196,11 +196,13 @@ class ProductController extends Controller{
     }
 
     public function actionDemo(){
+        $this->layout = 'website';
         //get data from Model
-        $randomProduct = Product::model()->getRandomProduct();        
+        $products = new Product('search');
+        $products->unsetAttributes();  // clear any default values  
 
         //Render to view
-        $this->render('demo', array('randomProduct'=>$randomProduct));
+        $this->render('demo', array('products' => $products), false, true);
     }
 
     /*
@@ -217,7 +219,7 @@ class ProductController extends Controller{
                 'uploadPath' => $uploadPath
             ), true, true);
         }
-        else if($productType == 'hot'){
+        else if($productType == 'hot'){            
             $html = $this->renderPartial( "hotProductGrid", array(
                 'hotProducts' => Product::model()->getHotProducts(),
                 'language' => $language,

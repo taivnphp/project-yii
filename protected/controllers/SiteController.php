@@ -56,6 +56,7 @@ class SiteController extends Controller {
     }
 
     public function actionQuestion() {
+        //Get List Question&Answers
         $this->render('question');
     }
 

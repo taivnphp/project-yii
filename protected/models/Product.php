@@ -197,7 +197,20 @@ class Product extends CActiveRecord
 	public function getHotProducts($catID=0){
 		$conditions = "proHOT = 1";
 		if($catID) $conditions.= " and catID=$catID";
+		
 		$hotProducts = $this->findAll($conditions);
-		return $hotProducts;
+		return $hotProducts;		
+	}
+
+	public function searchHotProduct(){
+		$criteria=new CDbCriteria;
+		
+		$criteria->compare('catID',$this->catID);		
+		$criteria->compare('proHOT','1');
+						
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+			'pagination' => array('pageSize' => 1)
+		));
 	}
 }

@@ -14,8 +14,8 @@
         <div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav menu__list">
             <li class="active menu__item <?php if($controllerId=='site' && $actionId=='index'){echo 'menu__item--current';} ?> "><a class="menu__link" href="<?php echo Yii::app()->getBaseUrl(true); ?>"><?php echo Yii::t('trans', 'Home'); ?></a></li>
-            <li class="active menu__item "><a class="menu__link" href="<?php echo Yii::app()->createUrl('site/about'); ?>"><?php echo Yii::t('trans', 'About_Us'); ?></a></li>
-            <li class="dropdown menu__item <?php if($controllerId=='product' || $controllerId=='category'){echo 'menu__item--current';} ?> "">
+            <li class="active menu__item <?php if($controllerId=='site' && $actionId=='about'){echo 'menu__item--current';} ?>"><a class="menu__link" href="<?php echo Yii::app()->createUrl('site/about'); ?>"><?php echo Yii::t('trans', 'About_Us'); ?></a></li>
+            <li class="dropdown menu__item <?php if($controllerId=='product' || $controllerId=='category'){echo 'menu__item--current';} ?>">
                 <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo Yii::t('trans', 'Product'); ?> <span class="caret"></span></a>
                 <ul class="dropdown-menu multi-column columns-3">
                     <div class="row">                        
@@ -23,7 +23,7 @@
                             <?php if(!empty($listCategories)){?>
                             <ul class="multi-column-dropdown">
                                 <?php foreach ($listCategories as $catInfo) { 
-                                    $catLink = Yii::app()->createUrl('category/'). '/' . $catInfo['id'] . '?' . $catInfo['alias']; 
+                                    $catLink = Yii::app()->createUrl('category/view'). '/' . $catInfo['id'] . '?' . $catInfo['alias']; 
                                 ?>
                                 <li><a href="<?php echo $catLink; ?>"><?php echo $catInfo['name']; ?></a></li>    
                                 <?php } ?>                                
@@ -35,7 +35,7 @@
                 </ul>
             </li>
             <li class=" menu__item <?php if($controllerId=='site' && $actionId=='question'){echo 'menu__item--current';} ?>"><a class="menu__link" href="<?php echo Yii::app()->createUrl('site/question'); ?>"><?php echo Yii::t('trans', 'Question'); ?></a></li>
-            <li class=" menu__item "><a class="menu__link" href="<?php echo Yii::app()->createUrl('site/contact'); ?>"><?php echo Yii::t('trans', 'Contact'); ?></a></li>
+            <li class=" menu__item <?php if($controllerId=='site' && $actionId=='contact'){echo 'menu__item--current';} ?>"><a class="menu__link" href="<?php echo Yii::app()->createUrl('site/contact'); ?>"><?php echo Yii::t('trans', 'Contact'); ?></a></li>
             <?php if($controllerId=='site' && $actionId=='error'){ ?>
             <li class=" menu__item menu__item--current"><a class="menu__link" href="javascript:;"><?php echo Yii::t('trans', 'Error'); ?></a></li>
             <?php } ?>

@@ -11,3 +11,4 @@
 	}
 	$newProducts = null;
 ?>
+<div class="clear-fix"></div>

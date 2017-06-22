@@ -101,7 +101,7 @@ $this->breadcrumbs = $breadcrumbs;
                     </div>
                     <div role="tabpanel" class="tab-pane fade bootstrap-tab-text" id="previews" aria-labelledby="previews-tab">
                         <!-- Load Preview here -->
-                        <h2>Load Facebook comments here</h2>
+                        <p>Load Facebook comments here...</p>
                     </div>							
                 </div>
             </div>
